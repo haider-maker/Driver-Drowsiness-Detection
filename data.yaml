@@ -1,0 +1,18 @@
+
+#YOLOv8 dataset configuration
+path: ./yolo_dataset 
+
+train: images/train
+val: images/val
+test: images/test  # optional
+
+nc: 1
+names: ["face"]
+
+#training on the colab 
+#train: /content/drive/MyDrive/Colab_Notebooks/yolo_dataset/images/train
+#val: /content/drive/MyDrive/Colab_Notebooks/yolo_dataset/images/val
+#test: /content/drive/MyDrive/Colab_Notebooks/yolo_dataset/images/test  # optional
+
+#nc: 1
+#names: ["face"]
