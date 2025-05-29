@@ -5,16 +5,16 @@ from collections import defaultdict
 
 # === CONFIG ===
 input_dir = Path("./window_pre-req")
-output_csv = "features_windowed.csv"
+output_csv = "features_windowed_improved.csv"
 
 fps = 6  # Adjusted for every-5th-frame extraction
-window_size_sec = 10
+window_size_sec = 15
 stride_sec = 1
 window_size = window_size_sec * fps
 stride = stride_sec * fps
 
 EAR_THRESHOLD = 0.25
-MAR_THRESHOLD = 0.6
+MAR_THRESHOLD = 0.3  # Dynamically lowered after observation
 
 # === Helper functions ===
 def load_time_file(path):
@@ -109,15 +109,16 @@ for video_num, (video, frames) in enumerate(video_data.items(), 1):
         ears = [f["ear"] for f in window]
         mars = [f["mar"] for f in window]
 
+        # === PERCLOS ===
         perclos = sum(1 for e in ears if e < EAR_THRESHOLD) / len(ears)
+
+        # === Blink Count ===
         blink_count = sum(1 for j in range(1, len(ears)) if ears[j-1] >= EAR_THRESHOLD and ears[j] < EAR_THRESHOLD)
-        blink_rate = blink_count / window_size_sec if window_size_sec else 0
-        yawn_count = sum(1 for m in mars if m > MAR_THRESHOLD)
-        yawn_rate = yawn_count / window_size_sec if window_size_sec else 0
-        # DEBUG: print all MAR values for one sample window
-        if video == "4-3":  # target a known drowsy video
-            print(f"\n📊 MARs for window starting at frame {window[0]['frame']}:")
-            print(mars)
+        blink_rate = blink_count / window_size_sec
+
+        # === Yawn Detection Using Transition ===
+        yawn_count = sum(1 for j in range(1, len(mars)) if mars[j-1] <= MAR_THRESHOLD and mars[j] > MAR_THRESHOLD)
+        yawn_rate = yawn_count / window_size_sec
 
         mid_frame = window[len(window) // 2]
         rows.append([
@@ -143,4 +144,4 @@ with open(output_csv, "w", newline="") as f:
     writer.writerow(["Video", "Frame", "PERCLOS", "BlinkRate", "YawnRate", "YawnCount", "KSS", "Timestamp"])
     writer.writerows(rows)
 
-print("✅ Done. Windowed features saved successfully.")
+print("✅ Done. Improved windowed features saved.")

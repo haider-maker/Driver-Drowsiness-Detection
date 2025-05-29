@@ -4,7 +4,7 @@ import numpy as np
 
 # === CONFIG ===
 feature_dir = "./features_output"
-video_prefix = "4-3"  # Target video subfolder
+video_prefix = "6-2"  # Target video subfolder
 ear_vals = []
 mar_vals = []
 
