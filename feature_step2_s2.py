@@ -13,7 +13,7 @@ window_size = window_size_sec * fps  # 360 frames
 stride = stride_sec * fps            # 60 frames
 
 EAR_THRESHOLD = 0.21
-MAR_THRESHOLD = 0.38
+MAR_THRESHOLD = 0.42
 
 # === Helper functions ===
 def load_time_file(path):
