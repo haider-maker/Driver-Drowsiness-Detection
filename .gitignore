@@ -14,3 +14,6 @@ features_output_s2
 frames_mapped_s2
 validation_plots
 window_pre-req_s2
+training_with face_landmarks.xml
+train.xml
+val.xml
