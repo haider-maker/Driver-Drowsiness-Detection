@@ -17,3 +17,4 @@ window_pre-req_s2
 training_with face_landmarks.xml
 train.xml
 val.xml
+shape_predictor_ir.dat
