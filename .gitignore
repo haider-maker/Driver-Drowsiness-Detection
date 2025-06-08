@@ -19,3 +19,4 @@ shape_predictor_ir.dat
 shape_predictor_68_face_landmarks.dat
 train.xml
 training_with_face_landmarks.xml
+data/*
