@@ -12,7 +12,6 @@ window_pre-req
 features_filtered
 features_output_s2
 frames_mapped_s2
-validation_plots
 window_pre-req_s2
 val.xml
 shape_predictor_ir.dat
