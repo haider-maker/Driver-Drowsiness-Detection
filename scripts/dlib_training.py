@@ -3,7 +3,7 @@ from pathlib import Path
 
 # === CONFIG ===
 training_xml_path = Path("train.xml")
-output_model_path = Path("shape_predictor_ir.dat")
+output_model_path = Path("shape_predictor_ir_final.dat")
 
 # === Pre-checks ===
 print(f"🔍 Checking if training file exists at {training_xml_path.resolve()}")

@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # === CONFIG ===
-feature_dir = "./features_output_s2"
-video_prefix = "8-2"  # Target video subfolder
+feature_dir = "data/EAR_MAR_dlib_output"
+video_prefix = "4-3"  # Target video subfolder
 ear_vals = []
 mar_vals = []
 

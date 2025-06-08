@@ -2,7 +2,7 @@ from pathlib import Path
 import xml.etree.ElementTree as ET
 
 # === CONFIG ===
-input_xml_path = Path("training_with_face_landmarks.xml")
+input_xml_path = Path("full_frame_dlib_dataset.xml")
 train_output_path = Path("train.xml")
 val_output_path = Path("val.xml")
 train_ratio = 0.8  # 80% training, 20% validation
