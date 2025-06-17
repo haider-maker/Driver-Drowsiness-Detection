@@ -1,0 +1,6802 @@
+[
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.316,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.315,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.315,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.314,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.313,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.312,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.311,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.311,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.013,
+    "lateral_offset_m": -0.31,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.014,
+    "lateral_offset_m": -0.309,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.017,
+    "lateral_offset_m": -0.306,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.023,
+    "lateral_offset_m": -0.297,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.03,
+    "lateral_offset_m": 0.28,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.042,
+    "lateral_offset_m": 0.253,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 0.205,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 0.154,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.029,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.009,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.049,
+    "lateral_offset_m": 0.113,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.083,
+    "lateral_offset_m": 0.166,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.104,
+    "lateral_offset_m": 0.25,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.123,
+    "lateral_offset_m": 0.335,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.129,
+    "lateral_offset_m": 0.419,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.132,
+    "lateral_offset_m": 0.494,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.133,
+    "lateral_offset_m": 0.572,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.134,
+    "lateral_offset_m": 0.66,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.137,
+    "lateral_offset_m": 0.725,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.142,
+    "lateral_offset_m": 0.786,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.144,
+    "lateral_offset_m": 0.84,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.144,
+    "lateral_offset_m": 0.881,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.144,
+    "lateral_offset_m": 0.912,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.144,
+    "lateral_offset_m": 0.927,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.144,
+    "lateral_offset_m": 0.926,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.144,
+    "lateral_offset_m": 0.895,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.145,
+    "lateral_offset_m": 0.848,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.145,
+    "lateral_offset_m": 0.772,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.145,
+    "lateral_offset_m": 0.667,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.145,
+    "lateral_offset_m": 0.532,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.143,
+    "lateral_offset_m": 0.357,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.137,
+    "lateral_offset_m": 0.165,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.125,
+    "lateral_offset_m": -0.117,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.101,
+    "lateral_offset_m": -0.394,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.078,
+    "lateral_offset_m": -0.704,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.059,
+    "lateral_offset_m": -1.04,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": -1.377,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": -1.639,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.021,
+    "lateral_offset_m": 1.562,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.027,
+    "lateral_offset_m": 1.302,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.056,
+    "lateral_offset_m": 1.083,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.098,
+    "lateral_offset_m": 0.9,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.129,
+    "lateral_offset_m": 0.742,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.139,
+    "lateral_offset_m": 0.593,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.136,
+    "lateral_offset_m": 0.444,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.119,
+    "lateral_offset_m": 0.298,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.079,
+    "lateral_offset_m": 0.205,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.048,
+    "lateral_offset_m": -0.216,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.013,
+    "lateral_offset_m": -0.37,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.015,
+    "lateral_offset_m": -0.437,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.029,
+    "lateral_offset_m": -0.525,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.031,
+    "lateral_offset_m": -0.513,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.027,
+    "lateral_offset_m": -0.298,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.019,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.006,
+    "lateral_offset_m": 0.216,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.006,
+    "lateral_offset_m": 0.512,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": 0.805,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.055,
+    "lateral_offset_m": 1.106,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.063,
+    "lateral_offset_m": 1.392,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.631,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.025,
+    "lateral_offset_m": -1.673,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -1.562,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.004,
+    "lateral_offset_m": -1.473,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.004,
+    "lateral_offset_m": -1.43,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": -1.423,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.008,
+    "lateral_offset_m": -1.435,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.007,
+    "lateral_offset_m": -1.453,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.03,
+    "lateral_offset_m": -1.486,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.057,
+    "lateral_offset_m": -1.546,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.078,
+    "lateral_offset_m": -0.349,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.082,
+    "lateral_offset_m": -0.234,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.067,
+    "lateral_offset_m": 0.938,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.038,
+    "lateral_offset_m": 1.114,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.005,
+    "lateral_offset_m": 0.652,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": 0.107,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.034,
+    "lateral_offset_m": 0.399,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.04,
+    "lateral_offset_m": -1.116,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.04,
+    "lateral_offset_m": -1.759,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.038,
+    "lateral_offset_m": -2.463,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.04,
+    "lateral_offset_m": -3.122,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.044,
+    "lateral_offset_m": -3.151,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.049,
+    "lateral_offset_m": -3.162,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": -3.083,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.058,
+    "lateral_offset_m": -2.81,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.05,
+    "lateral_offset_m": -2.324,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.038,
+    "lateral_offset_m": -1.518,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.008,
+    "lateral_offset_m": -0.106,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.025,
+    "lateral_offset_m": -0.174,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.054,
+    "lateral_offset_m": 0.782,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.07,
+    "lateral_offset_m": -1.704,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.071,
+    "lateral_offset_m": -0.671,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.073,
+    "lateral_offset_m": 0.332,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.075,
+    "lateral_offset_m": 1.202,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.075,
+    "lateral_offset_m": -1.48,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.074,
+    "lateral_offset_m": -0.753,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.076,
+    "lateral_offset_m": -0.147,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.083,
+    "lateral_offset_m": 0.329,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.093,
+    "lateral_offset_m": 0.707,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.1,
+    "lateral_offset_m": 0.878,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.103,
+    "lateral_offset_m": 0.932,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.104,
+    "lateral_offset_m": 0.943,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.107,
+    "lateral_offset_m": 0.92,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.108,
+    "lateral_offset_m": 0.862,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.106,
+    "lateral_offset_m": 0.742,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.106,
+    "lateral_offset_m": 0.602,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.106,
+    "lateral_offset_m": 0.41,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.106,
+    "lateral_offset_m": 0.163,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.104,
+    "lateral_offset_m": -0.134,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.099,
+    "lateral_offset_m": -0.552,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.089,
+    "lateral_offset_m": -0.964,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.07,
+    "lateral_offset_m": -1.42,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.05,
+    "lateral_offset_m": 1.582,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.036,
+    "lateral_offset_m": 1.025,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.036,
+    "lateral_offset_m": 0.496,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.05,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.072,
+    "lateral_offset_m": -0.456,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.093,
+    "lateral_offset_m": -0.851,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.105,
+    "lateral_offset_m": -1.178,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.094,
+    "lateral_offset_m": -1.488,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.074,
+    "lateral_offset_m": -1.673,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.053,
+    "lateral_offset_m": 1.722,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": 1.672,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.015,
+    "lateral_offset_m": -1.701,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.004,
+    "lateral_offset_m": 1.684,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.016,
+    "lateral_offset_m": 1.612,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.019,
+    "lateral_offset_m": 1.625,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 1.699,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.004,
+    "lateral_offset_m": -1.692,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.027,
+    "lateral_offset_m": -1.555,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.037,
+    "lateral_offset_m": -1.399,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.027,
+    "lateral_offset_m": -1.216,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.008,
+    "lateral_offset_m": -0.995,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.016,
+    "lateral_offset_m": -0.737,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.031,
+    "lateral_offset_m": -0.451,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.045,
+    "lateral_offset_m": -0.153,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.051,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.053,
+    "lateral_offset_m": 0.322,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.047,
+    "lateral_offset_m": 0.496,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.045,
+    "lateral_offset_m": 0.584,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.048,
+    "lateral_offset_m": -0.579,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": -0.449,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.062,
+    "lateral_offset_m": -0.195,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.059,
+    "lateral_offset_m": -0.16,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.042,
+    "lateral_offset_m": -0.646,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": -1.242,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.029,
+    "lateral_offset_m": 1.529,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.06,
+    "lateral_offset_m": 0.739,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.073,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.065,
+    "lateral_offset_m": -0.959,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.059,
+    "lateral_offset_m": 1.708,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.059,
+    "lateral_offset_m": 0.958,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.053,
+    "lateral_offset_m": 0.303,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.035,
+    "lateral_offset_m": -0.25,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.016,
+    "lateral_offset_m": -0.683,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.002,
+    "lateral_offset_m": -0.999,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": -1.212,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.008,
+    "lateral_offset_m": -1.33,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.004,
+    "lateral_offset_m": -1.369,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.03,
+    "lateral_offset_m": -1.359,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.051,
+    "lateral_offset_m": -1.287,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.065,
+    "lateral_offset_m": -1.147,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.081,
+    "lateral_offset_m": -0.928,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.096,
+    "lateral_offset_m": -0.598,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.1,
+    "lateral_offset_m": -0.137,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.092,
+    "lateral_offset_m": -0.501,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.075,
+    "lateral_offset_m": 1.117,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.056,
+    "lateral_offset_m": 1.647,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.051,
+    "lateral_offset_m": -1.397,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.059,
+    "lateral_offset_m": -1.089,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.082,
+    "lateral_offset_m": -0.764,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.097,
+    "lateral_offset_m": -0.521,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.093,
+    "lateral_offset_m": -0.348,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.082,
+    "lateral_offset_m": -0.264,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.064,
+    "lateral_offset_m": -0.216,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.058,
+    "lateral_offset_m": -0.233,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.065,
+    "lateral_offset_m": -0.299,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.088,
+    "lateral_offset_m": -0.422,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.107,
+    "lateral_offset_m": -0.566,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.108,
+    "lateral_offset_m": -0.643,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.101,
+    "lateral_offset_m": -0.655,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.089,
+    "lateral_offset_m": -0.607,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.084,
+    "lateral_offset_m": -0.483,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.084,
+    "lateral_offset_m": -0.293,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.074,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.053,
+    "lateral_offset_m": 0.317,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": 0.733,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 1.117,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.002,
+    "lateral_offset_m": 1.625,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.009,
+    "lateral_offset_m": -1.34,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.014,
+    "lateral_offset_m": -0.802,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.017,
+    "lateral_offset_m": -0.283,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.023,
+    "lateral_offset_m": 0.278,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.031,
+    "lateral_offset_m": 0.854,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.036,
+    "lateral_offset_m": 1.458,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.041,
+    "lateral_offset_m": 2.059,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.045,
+    "lateral_offset_m": 2.601,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.049,
+    "lateral_offset_m": 2.976,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.058,
+    "lateral_offset_m": 3.393,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.066,
+    "lateral_offset_m": 3.254,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.072,
+    "lateral_offset_m": 2.831,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.073,
+    "lateral_offset_m": 2.613,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.07,
+    "lateral_offset_m": 2.559,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.066,
+    "lateral_offset_m": 2.579,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.063,
+    "lateral_offset_m": 2.623,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.058,
+    "lateral_offset_m": 2.706,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.057,
+    "lateral_offset_m": 2.811,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.057,
+    "lateral_offset_m": 2.926,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.05,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.052,
+    "lateral_offset_m": 3.05,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.051,
+    "lateral_offset_m": 3.042,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.051,
+    "lateral_offset_m": 3.037,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.051,
+    "lateral_offset_m": 3.033,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.051,
+    "lateral_offset_m": 3.03,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.053,
+    "lateral_offset_m": 3.027,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.025,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.024,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.025,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": 3.027,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.057,
+    "lateral_offset_m": 3.028,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.058,
+    "lateral_offset_m": 3.029,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.059,
+    "lateral_offset_m": 3.031,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.059,
+    "lateral_offset_m": 3.032,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.059,
+    "lateral_offset_m": 3.033,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.059,
+    "lateral_offset_m": 3.033,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.06,
+    "lateral_offset_m": 3.031,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.06,
+    "lateral_offset_m": 3.008,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 2.948,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 2.881,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 2.783,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 2.671,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 2.577,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 2.452,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 2.317,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 2.167,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 2.002,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 1.853,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.052,
+    "lateral_offset_m": 1.644,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.027,
+    "lateral_offset_m": 1.426,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.003,
+    "lateral_offset_m": 1.249,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.023,
+    "lateral_offset_m": 1.019,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.046,
+    "lateral_offset_m": 0.777,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.06,
+    "lateral_offset_m": 0.525,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.071,
+    "lateral_offset_m": 0.272,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.077,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.077,
+    "lateral_offset_m": -0.276,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.073,
+    "lateral_offset_m": -0.535,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.067,
+    "lateral_offset_m": -0.735,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.057,
+    "lateral_offset_m": -0.96,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": -1.157,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": -1.328,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": -1.462,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": -1.573,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": -1.662,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.027,
+    "lateral_offset_m": -1.74,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.026,
+    "lateral_offset_m": 1.695,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.024,
+    "lateral_offset_m": 1.63,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.021,
+    "lateral_offset_m": 1.57,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": 1.477,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.015,
+    "lateral_offset_m": 1.371,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.016,
+    "lateral_offset_m": 1.242,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.016,
+    "lateral_offset_m": 1.111,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": 0.97,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": 0.819,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": 0.68,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": 0.54,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": 0.428,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.018,
+    "lateral_offset_m": 0.368,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.018,
+    "lateral_offset_m": 0.329,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.018,
+    "lateral_offset_m": 0.299,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.018,
+    "lateral_offset_m": 0.278,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.018,
+    "lateral_offset_m": 0.268,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": 0.273,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.014,
+    "lateral_offset_m": 0.295,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 0.332,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.004,
+    "lateral_offset_m": 0.389,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.002,
+    "lateral_offset_m": 0.461,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.006,
+    "lateral_offset_m": 0.533,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.014,
+    "lateral_offset_m": 0.637,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.023,
+    "lateral_offset_m": 0.751,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.034,
+    "lateral_offset_m": 0.878,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.041,
+    "lateral_offset_m": 1.015,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.044,
+    "lateral_offset_m": 1.152,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.044,
+    "lateral_offset_m": 1.296,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.043,
+    "lateral_offset_m": 1.449,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.04,
+    "lateral_offset_m": 1.61,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.036,
+    "lateral_offset_m": -1.727,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.037,
+    "lateral_offset_m": -1.559,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.04,
+    "lateral_offset_m": -1.397,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.044,
+    "lateral_offset_m": -1.265,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.05,
+    "lateral_offset_m": -1.111,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": -0.972,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.06,
+    "lateral_offset_m": -0.849,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.06,
+    "lateral_offset_m": -0.748,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": -0.675,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.05,
+    "lateral_offset_m": -0.628,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.04,
+    "lateral_offset_m": -0.608,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.027,
+    "lateral_offset_m": -0.614,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.017,
+    "lateral_offset_m": -0.644,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.007,
+    "lateral_offset_m": -0.692,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.004,
+    "lateral_offset_m": -0.754,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.011,
+    "lateral_offset_m": -0.817,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.007,
+    "lateral_offset_m": -0.884,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.009,
+    "lateral_offset_m": -1.098,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.025,
+    "lateral_offset_m": -1.484,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.039,
+    "lateral_offset_m": -2.08,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.047,
+    "lateral_offset_m": 1.667,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.049,
+    "lateral_offset_m": 0.901,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.044,
+    "lateral_offset_m": -0.153,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.031,
+    "lateral_offset_m": -1.422,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": 1.386,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.004,
+    "lateral_offset_m": -0.713,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.013,
+    "lateral_offset_m": -0.121,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.026,
+    "lateral_offset_m": 0.271,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.039,
+    "lateral_offset_m": -0.1,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.05,
+    "lateral_offset_m": -0.452,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.059,
+    "lateral_offset_m": -0.827,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.057,
+    "lateral_offset_m": -1.099,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.05,
+    "lateral_offset_m": -1.313,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.039,
+    "lateral_offset_m": -1.476,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": -1.577,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.023,
+    "lateral_offset_m": -1.612,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": -1.588,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.009,
+    "lateral_offset_m": -1.493,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.001,
+    "lateral_offset_m": -1.372,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.009,
+    "lateral_offset_m": -1.221,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": -1.018,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.004,
+    "lateral_offset_m": -0.842,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.009,
+    "lateral_offset_m": -0.657,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.025,
+    "lateral_offset_m": -0.461,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.047,
+    "lateral_offset_m": -0.207,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.064,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.083,
+    "lateral_offset_m": 0.225,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.096,
+    "lateral_offset_m": 0.36,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.102,
+    "lateral_offset_m": 0.422,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.105,
+    "lateral_offset_m": 0.445,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.108,
+    "lateral_offset_m": 0.439,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.109,
+    "lateral_offset_m": 0.429,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.105,
+    "lateral_offset_m": 0.412,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.098,
+    "lateral_offset_m": 0.414,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.094,
+    "lateral_offset_m": 0.433,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.088,
+    "lateral_offset_m": 0.46,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.082,
+    "lateral_offset_m": 0.517,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.082,
+    "lateral_offset_m": 0.555,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.091,
+    "lateral_offset_m": 0.565,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.102,
+    "lateral_offset_m": 0.532,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.112,
+    "lateral_offset_m": 0.472,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.118,
+    "lateral_offset_m": 0.374,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.118,
+    "lateral_offset_m": 0.254,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.118,
+    "lateral_offset_m": 0.134,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.118,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.118,
+    "lateral_offset_m": 0.221,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.116,
+    "lateral_offset_m": 0.41,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.104,
+    "lateral_offset_m": 0.584,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.078,
+    "lateral_offset_m": 0.603,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.056,
+    "lateral_offset_m": 0.462,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.026,
+    "lateral_offset_m": 0.116,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.008,
+    "lateral_offset_m": -0.423,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.032,
+    "lateral_offset_m": -1.117,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.05,
+    "lateral_offset_m": 1.564,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.063,
+    "lateral_offset_m": 0.634,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.073,
+    "lateral_offset_m": -0.294,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.082,
+    "lateral_offset_m": -0.364,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.087,
+    "lateral_offset_m": 1.911,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.087,
+    "lateral_offset_m": -2.059,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.087,
+    "lateral_offset_m": 0.707,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.087,
+    "lateral_offset_m": 0.75,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.088,
+    "lateral_offset_m": 2.202,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.088,
+    "lateral_offset_m": 2.061,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.09,
+    "lateral_offset_m": 1.926,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.091,
+    "lateral_offset_m": 1.767,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.091,
+    "lateral_offset_m": 1.566,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.091,
+    "lateral_offset_m": 1.389,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.091,
+    "lateral_offset_m": 1.268,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.089,
+    "lateral_offset_m": 1.191,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.082,
+    "lateral_offset_m": 1.083,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.066,
+    "lateral_offset_m": 0.922,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.048,
+    "lateral_offset_m": 0.869,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.032,
+    "lateral_offset_m": 0.881,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.027,
+    "lateral_offset_m": 0.927,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.029,
+    "lateral_offset_m": 0.972,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.032,
+    "lateral_offset_m": 1.027,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.035,
+    "lateral_offset_m": 1.064,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.037,
+    "lateral_offset_m": 1.102,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.038,
+    "lateral_offset_m": 1.143,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.038,
+    "lateral_offset_m": 1.169,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.036,
+    "lateral_offset_m": 1.19,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.032,
+    "lateral_offset_m": 1.196,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.021,
+    "lateral_offset_m": 1.163,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.004,
+    "lateral_offset_m": 1.106,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.015,
+    "lateral_offset_m": 1.004,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": 0.842,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 0.613,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.047,
+    "lateral_offset_m": 0.237,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.048,
+    "lateral_offset_m": -0.241,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.049,
+    "lateral_offset_m": -0.726,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.052,
+    "lateral_offset_m": 1.107,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.056,
+    "lateral_offset_m": 0.297,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.059,
+    "lateral_offset_m": -0.59,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.06,
+    "lateral_offset_m": -1.598,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.06,
+    "lateral_offset_m": -2.652,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.063,
+    "lateral_offset_m": 1.655,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.065,
+    "lateral_offset_m": 0.38,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.065,
+    "lateral_offset_m": 0.307,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.065,
+    "lateral_offset_m": -1.031,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.066,
+    "lateral_offset_m": -2.411,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.066,
+    "lateral_offset_m": -2.977,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.066,
+    "lateral_offset_m": 2.277,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.064,
+    "lateral_offset_m": 1.288,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.062,
+    "lateral_offset_m": 0.463,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.059,
+    "lateral_offset_m": 0.13,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.048,
+    "lateral_offset_m": -0.439,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": -0.41,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.014,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.007,
+    "lateral_offset_m": 0.464,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.036,
+    "lateral_offset_m": 1.201,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.062,
+    "lateral_offset_m": -1.668,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.088,
+    "lateral_offset_m": -1.074,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.113,
+    "lateral_offset_m": 0.341,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.128,
+    "lateral_offset_m": -0.302,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.143,
+    "lateral_offset_m": -1.088,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.148,
+    "lateral_offset_m": 1.737,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.149,
+    "lateral_offset_m": 1.085,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.149,
+    "lateral_offset_m": 0.344,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.15,
+    "lateral_offset_m": -0.229,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.151,
+    "lateral_offset_m": -0.894,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.151,
+    "lateral_offset_m": -1.383,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.149,
+    "lateral_offset_m": 1.687,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.143,
+    "lateral_offset_m": 1.237,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.137,
+    "lateral_offset_m": 0.932,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.133,
+    "lateral_offset_m": 0.703,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.13,
+    "lateral_offset_m": 0.534,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.126,
+    "lateral_offset_m": 0.468,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.12,
+    "lateral_offset_m": 0.403,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.114,
+    "lateral_offset_m": 0.42,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.107,
+    "lateral_offset_m": 0.544,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.096,
+    "lateral_offset_m": 0.761,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.084,
+    "lateral_offset_m": 1.058,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.07,
+    "lateral_offset_m": 1.446,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.069,
+    "lateral_offset_m": -1.712,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.083,
+    "lateral_offset_m": -1.198,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.103,
+    "lateral_offset_m": -0.744,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.122,
+    "lateral_offset_m": -0.153,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.123,
+    "lateral_offset_m": 0.494,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.102,
+    "lateral_offset_m": 1.15,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.075,
+    "lateral_offset_m": 1.733,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.033,
+    "lateral_offset_m": -1.008,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.005,
+    "lateral_offset_m": -0.242,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": 0.57,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.058,
+    "lateral_offset_m": 1.282,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.084,
+    "lateral_offset_m": -1.321,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.094,
+    "lateral_offset_m": -0.564,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.096,
+    "lateral_offset_m": 0.278,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.095,
+    "lateral_offset_m": 1.016,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.078,
+    "lateral_offset_m": 1.633,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.052,
+    "lateral_offset_m": 2.029,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.013,
+    "lateral_offset_m": 2.411,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.656,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.015,
+    "lateral_offset_m": 2.395,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.015,
+    "lateral_offset_m": 1.296,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -0.408,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.017,
+    "lateral_offset_m": -0.445,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": -2.663,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.006,
+    "lateral_offset_m": 0.243,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.03,
+    "lateral_offset_m": 1.604,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.06,
+    "lateral_offset_m": 0.549,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.08,
+    "lateral_offset_m": -0.57,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.072,
+    "lateral_offset_m": -1.574,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.049,
+    "lateral_offset_m": -1.566,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.025,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.0,
+    "lateral_offset_m": 1.017,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.016,
+    "lateral_offset_m": 1.298,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.028,
+    "lateral_offset_m": 0.939,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.039,
+    "lateral_offset_m": 0.326,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.049,
+    "lateral_offset_m": -0.306,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.058,
+    "lateral_offset_m": -0.88,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.064,
+    "lateral_offset_m": -1.409,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.064,
+    "lateral_offset_m": 1.709,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.058,
+    "lateral_offset_m": 1.311,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.046,
+    "lateral_offset_m": 1.034,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.033,
+    "lateral_offset_m": 0.907,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 0.872,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.004,
+    "lateral_offset_m": 0.962,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.015,
+    "lateral_offset_m": 1.108,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.033,
+    "lateral_offset_m": 1.303,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.041,
+    "lateral_offset_m": 1.391,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.025,
+    "lateral_offset_m": 1.334,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.005,
+    "lateral_offset_m": 1.163,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.025,
+    "lateral_offset_m": 0.796,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.053,
+    "lateral_offset_m": 0.226,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.084,
+    "lateral_offset_m": -0.496,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.102,
+    "lateral_offset_m": -1.139,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.119,
+    "lateral_offset_m": 1.484,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.126,
+    "lateral_offset_m": 0.661,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.127,
+    "lateral_offset_m": -0.144,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.123,
+    "lateral_offset_m": -0.891,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.118,
+    "lateral_offset_m": -1.585,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.114,
+    "lateral_offset_m": 1.286,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.113,
+    "lateral_offset_m": 0.708,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.114,
+    "lateral_offset_m": -0.267,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.116,
+    "lateral_offset_m": -0.426,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.12,
+    "lateral_offset_m": -0.927,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.125,
+    "lateral_offset_m": -1.392,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": -1.753,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.141,
+    "lateral_offset_m": -2.07,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.146,
+    "lateral_offset_m": -2.324,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.144,
+    "lateral_offset_m": -2.472,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.135,
+    "lateral_offset_m": -2.578,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.115,
+    "lateral_offset_m": -2.578,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.083,
+    "lateral_offset_m": -2.502,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.048,
+    "lateral_offset_m": -2.335,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.028,
+    "lateral_offset_m": -2.144,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.029,
+    "lateral_offset_m": -1.831,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.047,
+    "lateral_offset_m": -1.462,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.069,
+    "lateral_offset_m": -1.009,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.08,
+    "lateral_offset_m": -0.356,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": -0.567,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.03,
+    "lateral_offset_m": -1.395,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.015,
+    "lateral_offset_m": -0.937,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": -0.125,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.077,
+    "lateral_offset_m": -1.484,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.097,
+    "lateral_offset_m": -0.924,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.118,
+    "lateral_offset_m": 0.453,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.127,
+    "lateral_offset_m": 1.701,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.133,
+    "lateral_offset_m": -0.683,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.124,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.096,
+    "lateral_offset_m": -0.786,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.07,
+    "lateral_offset_m": 1.437,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.077,
+    "lateral_offset_m": 1.817,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.123,
+    "lateral_offset_m": 1.876,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.163,
+    "lateral_offset_m": 1.633,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.16,
+    "lateral_offset_m": 1.52,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.147,
+    "lateral_offset_m": 1.504,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.126,
+    "lateral_offset_m": 1.504,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.105,
+    "lateral_offset_m": 1.509,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.083,
+    "lateral_offset_m": 1.518,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.066,
+    "lateral_offset_m": 1.528,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.054,
+    "lateral_offset_m": 1.497,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.047,
+    "lateral_offset_m": 1.494,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.041,
+    "lateral_offset_m": 1.488,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.042,
+    "lateral_offset_m": 1.487,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.486,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.486,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.045,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.045,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.483,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.48,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.477,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.474,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.47,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.467,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.464,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.46,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.456,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.453,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.449,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.446,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.045,
+    "lateral_offset_m": 1.444,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.045,
+    "lateral_offset_m": 1.441,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.046,
+    "lateral_offset_m": 1.434,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.421,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.402,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.377,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.345,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.306,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.261,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.206,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.145,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.082,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 1.015,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 0.942,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 0.857,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 0.759,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": -0.647,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": -0.487,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 0.306,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": -0.207,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.042,
+    "lateral_offset_m": -0.177,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.042,
+    "lateral_offset_m": -0.173,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": -0.183,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.053,
+    "lateral_offset_m": -0.206,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.072,
+    "lateral_offset_m": -0.242,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.099,
+    "lateral_offset_m": 0.291,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.117,
+    "lateral_offset_m": 0.356,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.13,
+    "lateral_offset_m": -0.436,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.14,
+    "lateral_offset_m": 0.512,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.143,
+    "lateral_offset_m": -0.577,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.144,
+    "lateral_offset_m": 0.616,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.144,
+    "lateral_offset_m": 0.64,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.147,
+    "lateral_offset_m": 0.652,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.151,
+    "lateral_offset_m": 0.647,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.152,
+    "lateral_offset_m": 0.621,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.151,
+    "lateral_offset_m": 0.569,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.148,
+    "lateral_offset_m": 0.486,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.14,
+    "lateral_offset_m": 0.338,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.126,
+    "lateral_offset_m": 0.167,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.108,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.087,
+    "lateral_offset_m": -0.289,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.066,
+    "lateral_offset_m": -0.578,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.045,
+    "lateral_offset_m": -0.91,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.022,
+    "lateral_offset_m": -1.344,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.003,
+    "lateral_offset_m": -1.732,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 1.325,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": 0.96,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.028,
+    "lateral_offset_m": 0.433,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.039,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.048,
+    "lateral_offset_m": -0.446,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": -0.868,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.054,
+    "lateral_offset_m": -1.268,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.05,
+    "lateral_offset_m": -1.651,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.05,
+    "lateral_offset_m": 1.425,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.057,
+    "lateral_offset_m": 1.115,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.064,
+    "lateral_offset_m": 0.847,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.069,
+    "lateral_offset_m": 0.631,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.072,
+    "lateral_offset_m": 0.469,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.074,
+    "lateral_offset_m": 0.375,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.074,
+    "lateral_offset_m": 0.358,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.069,
+    "lateral_offset_m": 0.443,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.058,
+    "lateral_offset_m": 0.603,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.05,
+    "lateral_offset_m": 0.8,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.036,
+    "lateral_offset_m": 1.104,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": 1.462,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.025,
+    "lateral_offset_m": -1.635,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.057,
+    "lateral_offset_m": -1.19,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.082,
+    "lateral_offset_m": -0.763,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.093,
+    "lateral_offset_m": -0.298,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.091,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.073,
+    "lateral_offset_m": 0.259,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.045,
+    "lateral_offset_m": 0.395,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": 0.442,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.004,
+    "lateral_offset_m": 0.41,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.015,
+    "lateral_offset_m": 0.315,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.013,
+    "lateral_offset_m": 0.142,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.001,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.022,
+    "lateral_offset_m": -0.23,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.042,
+    "lateral_offset_m": -0.452,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": -0.752,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.024,
+    "lateral_offset_m": -1.051,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.0,
+    "lateral_offset_m": -1.399,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.032,
+    "lateral_offset_m": 1.704,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.06,
+    "lateral_offset_m": 1.319,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.084,
+    "lateral_offset_m": 0.952,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.101,
+    "lateral_offset_m": -0.534,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.11,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.115,
+    "lateral_offset_m": 0.727,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.122,
+    "lateral_offset_m": 1.378,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.13,
+    "lateral_offset_m": -1.449,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.141,
+    "lateral_offset_m": -0.78,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.152,
+    "lateral_offset_m": -0.284,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.164,
+    "lateral_offset_m": 0.567,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.177,
+    "lateral_offset_m": 1.146,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.189,
+    "lateral_offset_m": 1.668,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.191,
+    "lateral_offset_m": 2.058,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.192,
+    "lateral_offset_m": 2.451,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.197,
+    "lateral_offset_m": 2.734,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.206,
+    "lateral_offset_m": 2.875,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.209,
+    "lateral_offset_m": 2.846,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.202,
+    "lateral_offset_m": 2.77,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.185,
+    "lateral_offset_m": 2.743,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.16,
+    "lateral_offset_m": 2.761,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.146,
+    "lateral_offset_m": 2.769,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.129,
+    "lateral_offset_m": 2.772,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.113,
+    "lateral_offset_m": 2.773,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.098,
+    "lateral_offset_m": 2.776,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.071,
+    "lateral_offset_m": 2.783,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.046,
+    "lateral_offset_m": 2.784,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": 2.785,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": 2.785,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.004,
+    "lateral_offset_m": 2.785,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.008,
+    "lateral_offset_m": 2.785,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.009,
+    "lateral_offset_m": 2.785,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.009,
+    "lateral_offset_m": 2.785,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 2.785,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 2.784,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 2.782,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 2.776,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 2.763,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 2.747,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 2.731,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 2.718,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 2.718,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.009,
+    "lateral_offset_m": 2.706,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.005,
+    "lateral_offset_m": 2.698,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.0,
+    "lateral_offset_m": 2.7,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.003,
+    "lateral_offset_m": 2.71,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.004,
+    "lateral_offset_m": 2.732,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.004,
+    "lateral_offset_m": 2.735,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.007,
+    "lateral_offset_m": 2.734,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.015,
+    "lateral_offset_m": 2.732,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.029,
+    "lateral_offset_m": 2.725,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.045,
+    "lateral_offset_m": 2.705,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.064,
+    "lateral_offset_m": 2.687,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.086,
+    "lateral_offset_m": 2.663,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.102,
+    "lateral_offset_m": 2.636,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.126,
+    "lateral_offset_m": 2.595,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.148,
+    "lateral_offset_m": 2.539,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.174,
+    "lateral_offset_m": 2.441,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.2,
+    "lateral_offset_m": 2.329,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.218,
+    "lateral_offset_m": 2.214,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.232,
+    "lateral_offset_m": 2.092,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.233,
+    "lateral_offset_m": 2.077,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.232,
+    "lateral_offset_m": 2.058,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.223,
+    "lateral_offset_m": 2.055,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.204,
+    "lateral_offset_m": 2.053,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.16,
+    "lateral_offset_m": 2.051,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.102,
+    "lateral_offset_m": 2.049,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.062,
+    "lateral_offset_m": 2.047,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.027,
+    "lateral_offset_m": 2.045,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.017,
+    "lateral_offset_m": 2.044,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.013,
+    "lateral_offset_m": 2.046,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.051,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": 2.061,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": 2.081,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": 2.115,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": 2.148,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": 2.198,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": 2.262,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": 2.334,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": 2.408,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 2.478,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 2.569,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 2.678,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 2.772,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 2.828,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.835,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.02,
+    "lateral_offset_m": 2.808,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.035,
+    "lateral_offset_m": 2.763,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 2.704,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.08,
+    "lateral_offset_m": 2.624,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.109,
+    "lateral_offset_m": 2.514,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.129,
+    "lateral_offset_m": 2.414,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.151,
+    "lateral_offset_m": 2.272,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.162,
+    "lateral_offset_m": 2.109,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.159,
+    "lateral_offset_m": 1.889,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.146,
+    "lateral_offset_m": 1.642,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.129,
+    "lateral_offset_m": 1.417,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.1,
+    "lateral_offset_m": 1.119,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": 0.771,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.026,
+    "lateral_offset_m": 0.449,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.008,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.024,
+    "lateral_offset_m": -0.27,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.027,
+    "lateral_offset_m": -0.594,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.023,
+    "lateral_offset_m": -0.931,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.022,
+    "lateral_offset_m": -1.242,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.022,
+    "lateral_offset_m": -1.531,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.022,
+    "lateral_offset_m": -1.731,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.022,
+    "lateral_offset_m": 1.549,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.009,
+    "lateral_offset_m": 1.37,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.003,
+    "lateral_offset_m": 1.262,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 1.174,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 1.131,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 1.133,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 1.183,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.02,
+    "lateral_offset_m": 1.29,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.037,
+    "lateral_offset_m": 1.447,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.05,
+    "lateral_offset_m": 1.644,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.058,
+    "lateral_offset_m": -1.682,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.065,
+    "lateral_offset_m": -1.435,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.062,
+    "lateral_offset_m": -1.244,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.059,
+    "lateral_offset_m": -1.115,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.067,
+    "lateral_offset_m": -1.062,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.092,
+    "lateral_offset_m": -1.072,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.116,
+    "lateral_offset_m": -1.179,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.145,
+    "lateral_offset_m": -1.414,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.165,
+    "lateral_offset_m": -1.698,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.165,
+    "lateral_offset_m": 1.289,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.118,
+    "lateral_offset_m": 0.612,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.077,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.05,
+    "lateral_offset_m": -1.062,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.067,
+    "lateral_offset_m": 1.276,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.114,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.158,
+    "lateral_offset_m": -1.149,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.234,
+    "lateral_offset_m": 0.758,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.302,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.389,
+    "lateral_offset_m": -2.306,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.436,
+    "lateral_offset_m": -4.026,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.441,
+    "lateral_offset_m": -6.002,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.431,
+    "lateral_offset_m": -7.581,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.406,
+    "lateral_offset_m": -8.973,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.368,
+    "lateral_offset_m": -8.549,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.321,
+    "lateral_offset_m": -8.387,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.289,
+    "lateral_offset_m": -8.465,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.259,
+    "lateral_offset_m": -8.695,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.223,
+    "lateral_offset_m": -8.977,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.179,
+    "lateral_offset_m": -8.943,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.144,
+    "lateral_offset_m": -8.995,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.108,
+    "lateral_offset_m": -8.995,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.083,
+    "lateral_offset_m": -8.996,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": -8.997,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.036,
+    "lateral_offset_m": -8.997,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.026,
+    "lateral_offset_m": -8.998,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.023,
+    "lateral_offset_m": -8.998,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.021,
+    "lateral_offset_m": -8.998,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.017,
+    "lateral_offset_m": -8.996,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.013,
+    "lateral_offset_m": -8.995,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -8.994,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.007,
+    "lateral_offset_m": -8.994,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -8.994,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -8.994,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -8.993,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -8.991,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -8.968,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -8.859,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -8.697,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -8.42,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -8.069,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -7.744,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -7.274,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -6.857,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -6.294,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -5.846,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -5.272,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -4.785,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -4.165,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -3.656,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -2.996,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -2.426,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -1.707,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -1.141,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": -0.466,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": 0.678,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": 1.094,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": 1.359,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": 1.458,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.006,
+    "lateral_offset_m": 1.493,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.006,
+    "lateral_offset_m": 1.494,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.006,
+    "lateral_offset_m": 1.441,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.008,
+    "lateral_offset_m": 1.351,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.024,
+    "lateral_offset_m": 1.182,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.045,
+    "lateral_offset_m": 0.991,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.08,
+    "lateral_offset_m": 0.691,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.113,
+    "lateral_offset_m": 0.327,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.145,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.183,
+    "lateral_offset_m": -0.546,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.21,
+    "lateral_offset_m": -1.013,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.234,
+    "lateral_offset_m": -1.616,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.254,
+    "lateral_offset_m": -2.138,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.277,
+    "lateral_offset_m": -2.842,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.291,
+    "lateral_offset_m": -3.45,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.297,
+    "lateral_offset_m": -4.243,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.297,
+    "lateral_offset_m": -4.894,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.3,
+    "lateral_offset_m": -5.736,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.305,
+    "lateral_offset_m": -6.356,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.31,
+    "lateral_offset_m": -6.908,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.31,
+    "lateral_offset_m": -7.052,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.309,
+    "lateral_offset_m": -6.942,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.303,
+    "lateral_offset_m": -6.901,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.286,
+    "lateral_offset_m": -6.859,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.267,
+    "lateral_offset_m": -6.813,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.237,
+    "lateral_offset_m": -6.743,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.207,
+    "lateral_offset_m": -6.727,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.156,
+    "lateral_offset_m": -6.723,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.104,
+    "lateral_offset_m": -6.72,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.056,
+    "lateral_offset_m": -6.716,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.034,
+    "lateral_offset_m": -6.714,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.019,
+    "lateral_offset_m": -6.712,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.019,
+    "lateral_offset_m": -6.712,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.019,
+    "lateral_offset_m": -6.715,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.019,
+    "lateral_offset_m": -6.729,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -6.756,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -6.787,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -6.806,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -6.802,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -6.761,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -6.678,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -6.571,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -6.406,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -6.232,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.026,
+    "lateral_offset_m": -6.031,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.047,
+    "lateral_offset_m": -5.714,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.068,
+    "lateral_offset_m": -5.434,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.094,
+    "lateral_offset_m": -5.119,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.119,
+    "lateral_offset_m": -4.724,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": -4.323,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.141,
+    "lateral_offset_m": -4.011,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.149,
+    "lateral_offset_m": -3.569,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.159,
+    "lateral_offset_m": -3.114,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.167,
+    "lateral_offset_m": -2.726,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.18,
+    "lateral_offset_m": -2.195,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.19,
+    "lateral_offset_m": -1.723,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.203,
+    "lateral_offset_m": -1.101,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.213,
+    "lateral_offset_m": -0.469,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.218,
+    "lateral_offset_m": 0.236,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.212,
+    "lateral_offset_m": 0.83,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.199,
+    "lateral_offset_m": 1.606,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.18,
+    "lateral_offset_m": -1.114,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.169,
+    "lateral_offset_m": -0.525,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.159,
+    "lateral_offset_m": 0.168,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.153,
+    "lateral_offset_m": 0.764,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.152,
+    "lateral_offset_m": 1.209,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.152,
+    "lateral_offset_m": 1.699,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.151,
+    "lateral_offset_m": -1.35,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.152,
+    "lateral_offset_m": -1.008,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.153,
+    "lateral_offset_m": -0.623,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.152,
+    "lateral_offset_m": -0.448,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.152,
+    "lateral_offset_m": -0.401,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.154,
+    "lateral_offset_m": -0.414,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.159,
+    "lateral_offset_m": -0.463,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.17,
+    "lateral_offset_m": -0.588,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.182,
+    "lateral_offset_m": -0.782,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.194,
+    "lateral_offset_m": -0.988,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.205,
+    "lateral_offset_m": -1.314,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.214,
+    "lateral_offset_m": -1.716,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.221,
+    "lateral_offset_m": 1.403,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.228,
+    "lateral_offset_m": 0.874,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.233,
+    "lateral_offset_m": 0.406,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.238,
+    "lateral_offset_m": -0.109,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.242,
+    "lateral_offset_m": -0.785,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.244,
+    "lateral_offset_m": -1.348,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.245,
+    "lateral_offset_m": 1.391,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.246,
+    "lateral_offset_m": 0.616,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.246,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.246,
+    "lateral_offset_m": -0.841,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.245,
+    "lateral_offset_m": -1.51,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.244,
+    "lateral_offset_m": -2.315,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.237,
+    "lateral_offset_m": -3.113,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.22,
+    "lateral_offset_m": -3.716,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.189,
+    "lateral_offset_m": -4.419,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.138,
+    "lateral_offset_m": -4.93,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.088,
+    "lateral_offset_m": -5.066,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.009,
+    "lateral_offset_m": -4.842,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.058,
+    "lateral_offset_m": -4.249,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.107,
+    "lateral_offset_m": -3.325,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.136,
+    "lateral_offset_m": -2.214,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.157,
+    "lateral_offset_m": -1.209,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.168,
+    "lateral_offset_m": -0.115,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.167,
+    "lateral_offset_m": -1.459,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.163,
+    "lateral_offset_m": 0.696,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.165,
+    "lateral_offset_m": -0.349,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.174,
+    "lateral_offset_m": -1.57,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.179,
+    "lateral_offset_m": -2.473,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.181,
+    "lateral_offset_m": -2.524,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.177,
+    "lateral_offset_m": -2.315,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.163,
+    "lateral_offset_m": -2.258,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.15,
+    "lateral_offset_m": -2.342,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.15,
+    "lateral_offset_m": -2.352,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.151,
+    "lateral_offset_m": -2.348,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.152,
+    "lateral_offset_m": -2.345,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.145,
+    "lateral_offset_m": -2.342,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.145,
+    "lateral_offset_m": -2.342,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.111,
+    "lateral_offset_m": -2.34,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": -2.338,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": -2.338,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -2.336,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -2.329,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -2.303,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": -2.227,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.016,
+    "lateral_offset_m": -2.087,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.002,
+    "lateral_offset_m": -1.885,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.014,
+    "lateral_offset_m": -1.67,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.039,
+    "lateral_offset_m": -1.369,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.067,
+    "lateral_offset_m": -1.022,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.088,
+    "lateral_offset_m": -0.646,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.101,
+    "lateral_offset_m": -0.228,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.095,
+    "lateral_offset_m": 0.231,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.069,
+    "lateral_offset_m": 0.691,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": 1.067,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.019,
+    "lateral_offset_m": 1.559,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.053,
+    "lateral_offset_m": -1.428,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.065,
+    "lateral_offset_m": -0.892,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.067,
+    "lateral_offset_m": -0.345,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.067,
+    "lateral_offset_m": 0.23,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.068,
+    "lateral_offset_m": 0.821,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.069,
+    "lateral_offset_m": 1.225,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.069,
+    "lateral_offset_m": 1.484,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.069,
+    "lateral_offset_m": 1.513,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.063,
+    "lateral_offset_m": 1.431,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.043,
+    "lateral_offset_m": 1.309,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 1.088,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.026,
+    "lateral_offset_m": 0.817,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.06,
+    "lateral_offset_m": 0.495,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.087,
+    "lateral_offset_m": 0.206,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.123,
+    "lateral_offset_m": -0.196,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.151,
+    "lateral_offset_m": -0.636,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.178,
+    "lateral_offset_m": -1.102,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.194,
+    "lateral_offset_m": -1.516,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.203,
+    "lateral_offset_m": 1.46,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.206,
+    "lateral_offset_m": 1.015,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.206,
+    "lateral_offset_m": 0.465,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.211,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.215,
+    "lateral_offset_m": -0.518,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.217,
+    "lateral_offset_m": -1.029,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.217,
+    "lateral_offset_m": -1.415,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.216,
+    "lateral_offset_m": -1.749,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.203,
+    "lateral_offset_m": -2.112,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.179,
+    "lateral_offset_m": -2.345,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.136,
+    "lateral_offset_m": -2.521,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.072,
+    "lateral_offset_m": -2.668,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.024,
+    "lateral_offset_m": -2.745,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.007,
+    "lateral_offset_m": -2.796,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.019,
+    "lateral_offset_m": -2.844,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.034,
+    "lateral_offset_m": -2.885,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.044,
+    "lateral_offset_m": -2.94,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.035,
+    "lateral_offset_m": -3.016,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.004,
+    "lateral_offset_m": -3.14,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.031,
+    "lateral_offset_m": -3.253,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.067,
+    "lateral_offset_m": -3.357,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.104,
+    "lateral_offset_m": -3.441,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.125,
+    "lateral_offset_m": -3.467,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.113,
+    "lateral_offset_m": -3.406,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.082,
+    "lateral_offset_m": -3.263,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.042,
+    "lateral_offset_m": -3.036,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.001,
+    "lateral_offset_m": -2.743,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.044,
+    "lateral_offset_m": -2.296,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.062,
+    "lateral_offset_m": -1.912,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.061,
+    "lateral_offset_m": -1.53,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.041,
+    "lateral_offset_m": -1.178,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.009,
+    "lateral_offset_m": -0.779,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.007,
+    "lateral_offset_m": -0.482,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.006,
+    "lateral_offset_m": -0.21,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.033,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.038,
+    "lateral_offset_m": -0.324,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.024,
+    "lateral_offset_m": 0.513,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.001,
+    "lateral_offset_m": 0.672,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.015,
+    "lateral_offset_m": 0.846,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.001,
+    "lateral_offset_m": 0.972,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.021,
+    "lateral_offset_m": 1.11,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.024,
+    "lateral_offset_m": 1.206,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.014,
+    "lateral_offset_m": 1.289,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.01,
+    "lateral_offset_m": 1.374,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.016,
+    "lateral_offset_m": 1.435,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.002,
+    "lateral_offset_m": 1.505,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.021,
+    "lateral_offset_m": 1.555,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.034,
+    "lateral_offset_m": 1.603,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.04,
+    "lateral_offset_m": 1.621,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.04,
+    "lateral_offset_m": 1.604,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.036,
+    "lateral_offset_m": 1.551,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.034,
+    "lateral_offset_m": 1.421,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.033,
+    "lateral_offset_m": 1.215,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.023,
+    "lateral_offset_m": 0.996,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.657,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.062,
+    "lateral_offset_m": 0.285,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.126,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.191,
+    "lateral_offset_m": -0.36,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.24,
+    "lateral_offset_m": 0.552,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.259,
+    "lateral_offset_m": 0.243,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.267,
+    "lateral_offset_m": -0.879,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.279,
+    "lateral_offset_m": -2.75,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.306,
+    "lateral_offset_m": 0.114,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.32,
+    "lateral_offset_m": 1.186,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.326,
+    "lateral_offset_m": -1.128,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.338,
+    "lateral_offset_m": 0.109,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.356,
+    "lateral_offset_m": 1.557,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.367,
+    "lateral_offset_m": 0.104,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.362,
+    "lateral_offset_m": -1.532,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.355,
+    "lateral_offset_m": -2.914,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.364,
+    "lateral_offset_m": -3.177,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.37,
+    "lateral_offset_m": -3.155,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.358,
+    "lateral_offset_m": -3.168,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.335,
+    "lateral_offset_m": -3.19,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.296,
+    "lateral_offset_m": -3.22,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.265,
+    "lateral_offset_m": -3.238,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.253,
+    "lateral_offset_m": -3.238,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.261,
+    "lateral_offset_m": -3.208,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.275,
+    "lateral_offset_m": -3.167,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.286,
+    "lateral_offset_m": -3.117,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.293,
+    "lateral_offset_m": -3.053,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.298,
+    "lateral_offset_m": -3.016,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.309,
+    "lateral_offset_m": -2.942,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.32,
+    "lateral_offset_m": -2.763,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.322,
+    "lateral_offset_m": -2.52,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.322,
+    "lateral_offset_m": -2.255,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.318,
+    "lateral_offset_m": -1.842,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.296,
+    "lateral_offset_m": -1.426,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.258,
+    "lateral_offset_m": -0.819,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.206,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.152,
+    "lateral_offset_m": 0.59,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.091,
+    "lateral_offset_m": 1.509,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.057,
+    "lateral_offset_m": -1.182,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.021,
+    "lateral_offset_m": -0.14,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.001,
+    "lateral_offset_m": 0.994,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.023,
+    "lateral_offset_m": -1.574,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.052,
+    "lateral_offset_m": -0.368,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.082,
+    "lateral_offset_m": 0.863,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.101,
+    "lateral_offset_m": -1.641,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.124,
+    "lateral_offset_m": -0.413,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.135,
+    "lateral_offset_m": 0.769,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.143,
+    "lateral_offset_m": 1.921,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.149,
+    "lateral_offset_m": 2.817,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.152,
+    "lateral_offset_m": 3.765,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.151,
+    "lateral_offset_m": 4.199,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.151,
+    "lateral_offset_m": 4.268,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.151,
+    "lateral_offset_m": 3.798,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.149,
+    "lateral_offset_m": 3.046,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.145,
+    "lateral_offset_m": 1.658,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.126,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.097,
+    "lateral_offset_m": 1.021,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.063,
+    "lateral_offset_m": -0.485,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.027,
+    "lateral_offset_m": 0.986,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.009,
+    "lateral_offset_m": 2.808,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.04,
+    "lateral_offset_m": 2.133,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.058,
+    "lateral_offset_m": 0.165,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.043,
+    "lateral_offset_m": 1.503,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.023,
+    "lateral_offset_m": 0.154,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.013,
+    "lateral_offset_m": -0.324,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.017,
+    "lateral_offset_m": 1.03,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": 2.128,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.048,
+    "lateral_offset_m": 2.747,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.056,
+    "lateral_offset_m": 3.139,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.046,
+    "lateral_offset_m": 3.053,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.031,
+    "lateral_offset_m": 2.899,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.019,
+    "lateral_offset_m": 2.791,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.016,
+    "lateral_offset_m": 2.758,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.016,
+    "lateral_offset_m": 2.78,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.016,
+    "lateral_offset_m": 2.845,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.014,
+    "lateral_offset_m": 2.949,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.009,
+    "lateral_offset_m": 3.07,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.005,
+    "lateral_offset_m": 3.212,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.002,
+    "lateral_offset_m": 3.379,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.014,
+    "lateral_offset_m": 3.564,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.031,
+    "lateral_offset_m": 3.784,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.044,
+    "lateral_offset_m": 3.949,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.053,
+    "lateral_offset_m": 4.083,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.059,
+    "lateral_offset_m": 4.171,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.067,
+    "lateral_offset_m": 4.195,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.075,
+    "lateral_offset_m": 3.948,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.09,
+    "lateral_offset_m": 3.606,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.112,
+    "lateral_offset_m": 3.438,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": 3.399,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.154,
+    "lateral_offset_m": 3.42,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.154,
+    "lateral_offset_m": 3.454,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.149,
+    "lateral_offset_m": 3.495,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.141,
+    "lateral_offset_m": 3.54,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.125,
+    "lateral_offset_m": 3.491,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.088,
+    "lateral_offset_m": 3.489,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.045,
+    "lateral_offset_m": 3.485,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.005,
+    "lateral_offset_m": 3.481,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.026,
+    "lateral_offset_m": 3.477,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.044,
+    "lateral_offset_m": 3.474,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.048,
+    "lateral_offset_m": 3.471,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.051,
+    "lateral_offset_m": 3.469,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.056,
+    "lateral_offset_m": 3.467,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.058,
+    "lateral_offset_m": 3.465,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.058,
+    "lateral_offset_m": 3.465,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.058,
+    "lateral_offset_m": 3.465,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.059,
+    "lateral_offset_m": 3.465,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.06,
+    "lateral_offset_m": 3.464,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.061,
+    "lateral_offset_m": 3.464,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.067,
+    "lateral_offset_m": 3.464,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.075,
+    "lateral_offset_m": 3.463,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.079,
+    "lateral_offset_m": 3.463,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.063,
+    "lateral_offset_m": 3.463,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.035,
+    "lateral_offset_m": 3.463,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 3.463,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.001,
+    "lateral_offset_m": 3.462,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.002,
+    "lateral_offset_m": 3.462,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.001,
+    "lateral_offset_m": 3.461,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.001,
+    "lateral_offset_m": 3.461,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.001,
+    "lateral_offset_m": 3.46,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.001,
+    "lateral_offset_m": 3.459,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.001,
+    "lateral_offset_m": 3.458,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.006,
+    "lateral_offset_m": 3.457,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 3.448,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 3.429,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 3.39,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 3.342,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 3.282,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 3.192,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 3.099,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.996,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.886,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.756,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.646,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.534,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.397,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.278,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.013,
+    "lateral_offset_m": 2.162,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.012,
+    "lateral_offset_m": 2.08,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.013,
+    "lateral_offset_m": 2.059,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": 2.1,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.026,
+    "lateral_offset_m": 2.165,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.038,
+    "lateral_offset_m": 2.245,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.06,
+    "lateral_offset_m": 2.355,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.084,
+    "lateral_offset_m": 2.448,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.109,
+    "lateral_offset_m": 2.539,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.136,
+    "lateral_offset_m": 2.637,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.159,
+    "lateral_offset_m": 2.704,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.181,
+    "lateral_offset_m": 2.747,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.206,
+    "lateral_offset_m": 2.757,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.228,
+    "lateral_offset_m": 2.722,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.236,
+    "lateral_offset_m": 2.611,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.236,
+    "lateral_offset_m": 2.448,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.236,
+    "lateral_offset_m": 2.223,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.236,
+    "lateral_offset_m": 1.817,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.236,
+    "lateral_offset_m": 1.331,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.236,
+    "lateral_offset_m": 0.687,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.236,
+    "lateral_offset_m": 0.205,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.235,
+    "lateral_offset_m": -0.529,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.227,
+    "lateral_offset_m": -1.391,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.193,
+    "lateral_offset_m": 1.098,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.151,
+    "lateral_offset_m": 0.116,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.11,
+    "lateral_offset_m": -0.724,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.075,
+    "lateral_offset_m": 0.284,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.06,
+    "lateral_offset_m": -1.177,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": -2.667,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.055,
+    "lateral_offset_m": 2.596,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.058,
+    "lateral_offset_m": 1.608,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.065,
+    "lateral_offset_m": 0.913,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.083,
+    "lateral_offset_m": 0.197,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.095,
+    "lateral_offset_m": -0.285,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.106,
+    "lateral_offset_m": -0.603,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.107,
+    "lateral_offset_m": -0.763,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.096,
+    "lateral_offset_m": -0.717,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.076,
+    "lateral_offset_m": -0.633,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.051,
+    "lateral_offset_m": 0.642,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.034,
+    "lateral_offset_m": -0.735,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.018,
+    "lateral_offset_m": 0.873,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.0,
+    "lateral_offset_m": 0.984,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.011,
+    "lateral_offset_m": 0.932,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.006,
+    "lateral_offset_m": 0.758,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.014,
+    "lateral_offset_m": 0.439,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.039,
+    "lateral_offset_m": 0.23,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.069,
+    "lateral_offset_m": -0.68,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.093,
+    "lateral_offset_m": -1.311,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.113,
+    "lateral_offset_m": 1.424,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.128,
+    "lateral_offset_m": 0.449,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": -0.399,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": -1.273,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": 1.347,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": 0.315,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": -0.507,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": -1.111,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": 1.724,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": 1.111,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": 0.596,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.134,
+    "lateral_offset_m": 0.162,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.131,
+    "lateral_offset_m": -0.155,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.121,
+    "lateral_offset_m": -0.334,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.089,
+    "lateral_offset_m": -0.465,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.059,
+    "lateral_offset_m": -0.492,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.019,
+    "lateral_offset_m": -0.457,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.007,
+    "lateral_offset_m": -0.366,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.023,
+    "lateral_offset_m": -0.254,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": -0.146,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.029,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.029,
+    "lateral_offset_m": 0.19,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.03,
+    "lateral_offset_m": 0.314,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": 0.455,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.032,
+    "lateral_offset_m": 0.562,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": 0.615,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.019,
+    "lateral_offset_m": 0.614,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.011,
+    "lateral_offset_m": 0.57,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.006,
+    "lateral_offset_m": 0.475,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.001,
+    "lateral_offset_m": 0.337,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.009,
+    "lateral_offset_m": 0.166,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.022,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": -0.038,
+    "lateral_offset_m": -0.219,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.045,
+    "lateral_offset_m": -0.362,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.045,
+    "lateral_offset_m": -0.509,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.036,
+    "lateral_offset_m": -0.599,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.025,
+    "lateral_offset_m": -0.616,
+    "direction": "left"
+  },
+  {
+    "steering_angle": -0.011,
+    "lateral_offset_m": -0.571,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.005,
+    "lateral_offset_m": -0.461,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.019,
+    "lateral_offset_m": -0.301,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.034,
+    "lateral_offset_m": -0.108,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.046,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.051,
+    "lateral_offset_m": 0.242,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.045,
+    "lateral_offset_m": 0.38,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": 0.463,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.473,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.003,
+    "lateral_offset_m": 0.415,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.013,
+    "lateral_offset_m": 0.299,
+    "direction": "right"
+  },
+  {
+    "steering_angle": -0.01,
+    "lateral_offset_m": 0.13,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.005,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.024,
+    "lateral_offset_m": -0.303,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.031,
+    "lateral_offset_m": -0.568,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.03,
+    "lateral_offset_m": -0.864,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.03,
+    "lateral_offset_m": -1.203,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.03,
+    "lateral_offset_m": -1.662,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.03,
+    "lateral_offset_m": -2.165,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.028,
+    "lateral_offset_m": -2.431,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.021,
+    "lateral_offset_m": -1.459,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.014,
+    "lateral_offset_m": -0.701,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.285,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.513,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.593,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.545,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.43,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.261,
+    "direction": "right"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": 0.0,
+    "direction": "center"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -0.247,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -0.545,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -0.826,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -1.055,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -1.33,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -1.552,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -1.769,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -1.978,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -2.223,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -2.421,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -2.61,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -2.792,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -2.994,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -3.156,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -3.317,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -3.474,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -3.614,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -3.755,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -3.889,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -4.032,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -4.139,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -4.27,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -4.374,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -4.494,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -4.586,
+    "direction": "left"
+  },
+  {
+    "steering_angle": 0.012,
+    "lateral_offset_m": -4.698,
+    "direction": "left"
+  }
+]
