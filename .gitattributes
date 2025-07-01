@@ -1,1 +1,2 @@
 extracted_data/**/*.zip filter=lfs diff=lfs merge=lfs -text
+Sync_Extracted_Data/**/*.zip filter=lfs diff=lfs merge=lfs -text
