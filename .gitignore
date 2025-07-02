@@ -23,3 +23,8 @@ landmarks_dlib
 EAR_MAR_dlib_output
 *.csv
 *.dat
+Fabian_KSS_8_Vid_1
+Fabian_trail_landmarks_visualized 
+data 
+landmarks_dlib_pretrained_simple
+prototype_visuals

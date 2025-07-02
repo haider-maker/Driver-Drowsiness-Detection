@@ -35,6 +35,13 @@ for filename in os.listdir(input_folder):
 
     # Convert grayscale → 3-channel RGB (required by MediaPipe)
     rgb_image = cv2.cvtColor(gray, cv2.COLOR_GRAY2RGB)
+    
+    # Display the image
+    cv2.imshow("RGB Image", rgb_image)
+
+    # Wait for a key press and close the window
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
     # Detect landmarks
     results = face_mesh.process(rgb_image)

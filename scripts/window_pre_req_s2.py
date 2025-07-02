@@ -1,15 +1,16 @@
 import os
 import shutil
+from pathlib import Path
 
 # === CONFIGURATION ===
-features_dir = "./features_output_s2"    # Contains EAR + MAR .txt files
-frames_dir = "./frames"                  # Contains KSS and time files
-output_dir = "./window_pre-req_s2"       # New flat output folder
-os.makedirs(output_dir, exist_ok=True)
+features_dir = Path("data/EAR_MAR_dlib_output")  # Contains EAR + MAR .txt files (with subfolders)
+frames_dir = Path("data/frames")                 # Contains KSS and time files (with subfolders)
+output_dir = Path("data/window_pre-req_s2")      # Output will mirror features_dir structure
+output_dir.mkdir(parents=True, exist_ok=True)
 
 print("📦 Starting feature aggregation...")
 
-# === Process all feature files ===
+# === Stats ===
 processed = 0
 skipped = 0
 total = 0
@@ -17,38 +18,28 @@ missing_kss = 0
 missing_time = 0
 bad_filename = 0
 
-feature_files = sorted(os.listdir(features_dir))
+# Recursively process all .txt files
+feature_files = sorted(features_dir.rglob("*.txt"))
 print(f"🔍 Found {len(feature_files)} files in {features_dir}\n")
 
-for idx, file in enumerate(feature_files, 1):
-    if not file.endswith(".txt"):
-        continue
-
+for idx, feat_path in enumerate(feature_files, 1):
     total += 1
+    file = feat_path.name
+    video_id = feat_path.parent.name  # e.g., '1-1'
+    frame_name = file.replace(".txt", "")  # e.g., 'frame_2587'
 
-    # Parse video ID and frame name
-    try:
-        video_id, frame_part = file.split("_frame_")
-        frame_name = f"frame_{frame_part.replace('.txt', '')}"
-    except Exception as e:
-        print(f"❌ [{idx}] Failed to parse filename: {file}")
-        bad_filename += 1
-        skipped += 1
-        continue
-
-    # Paths to source files
-    kss_path = os.path.join(frames_dir, video_id, f"{frame_name}.kss")
-    time_path = os.path.join(frames_dir, video_id, f"{frame_name}.time")
-    feat_path = os.path.join(features_dir, file)
+    # Construct full paths
+    kss_path = frames_dir / video_id / f"{frame_name}.kss"
+    time_path = frames_dir / video_id / f"{frame_name}.time"
 
     missing_files = []
-    if not os.path.exists(kss_path):
+    if not kss_path.exists():
         missing_kss += 1
         missing_files.append("KSS")
-    if not os.path.exists(time_path):
+    if not time_path.exists():
         missing_time += 1
         missing_files.append("Time")
-    if not os.path.exists(feat_path):
+    if not feat_path.exists():
         missing_files.append("Feature")
 
     if missing_files:
@@ -56,11 +47,14 @@ for idx, file in enumerate(feature_files, 1):
         skipped += 1
         continue
 
-    # Output filenames
-    base_name = f"{video_id}_{frame_name}"
-    shutil.copy(feat_path, os.path.join(output_dir, f"{base_name}.txt"))
-    shutil.copy(kss_path, os.path.join(output_dir, f"{base_name}.kss"))
-    shutil.copy(time_path, os.path.join(output_dir, f"{base_name}.time"))
+    # Create output subdirectory
+    output_subdir = output_dir / video_id
+    output_subdir.mkdir(parents=True, exist_ok=True)
+
+    # Define full output paths
+    shutil.copy(feat_path, output_subdir / f"{frame_name}.txt")
+    shutil.copy(kss_path, output_subdir / f"{frame_name}.kss")
+    shutil.copy(time_path, output_subdir / f"{frame_name}.time")
 
     processed += 1
     if processed % 100 == 0:

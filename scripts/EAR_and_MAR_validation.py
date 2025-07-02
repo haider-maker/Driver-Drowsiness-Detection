@@ -3,18 +3,24 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # === CONFIG ===
-feature_dir = "data/EAR_MAR_dlib_output"
-video_prefix = "4-3"  # Target video subfolder
+base_dir = "data/EAR_MAR_dlib_output"
+video_prefix = "14-3"  # Target subfolder
+target_dir = os.path.join(base_dir, video_prefix)
+
 ear_vals = []
 mar_vals = []
 
-# === Load and filter files ===
-files = sorted([f for f in os.listdir(feature_dir) if f.startswith(video_prefix) and f.endswith(".txt")])
+# === Sanity check ===
+if not os.path.isdir(target_dir):
+    print(f"❌ Subfolder not found: {target_dir}")
+    exit()
 
-print(f"📂 Found {len(files)} feature files for {video_prefix}")
+# === Load and filter files ===
+files = sorted([f for f in os.listdir(target_dir) if f.endswith(".txt")])
+print(f"📂 Found {len(files)} feature files in '{video_prefix}'")
 
 for file in files:
-    file_path = os.path.join(feature_dir, file)
+    file_path = os.path.join(target_dir, file)
     with open(file_path, 'r') as f:
         try:
             ear, mar = map(float, f.readline().strip().split())
@@ -22,6 +28,11 @@ for file in files:
             mar_vals.append(mar)
         except:
             print(f"⚠️ Skipping invalid or empty file: {file}")
+
+# === Check data availability ===
+if not ear_vals or not mar_vals:
+    print("❌ No valid EAR or MAR values found.")
+    exit()
 
 # === Plot EAR and MAR ===
 plt.figure(figsize=(12, 5))
