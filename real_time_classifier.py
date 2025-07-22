@@ -1,12 +1,12 @@
 import pandas as pd
 import time
 from datetime import datetime
-
+import os
 
 FEATURE_VECTOR_MAP = {
     "PERCLOS": "PERCLOS",
-    "BlinkRate": "BlinkRate",  # You may need to scale or convert
-    "YawningRate": "YawnRate", # Rename YawnRate to YawningRate
+    "BlinkRate": "BlinkRate",
+    "YawningRate": "YawnRate",
     "SteeringEntropy": "Steering Entropy",
     "SteeringReversalRate": "SRR",
     "SteeringStd": "SAV",
@@ -17,26 +17,12 @@ FEATURE_VECTOR_MAP = {
 }
 
 def remap_feature_vector_row(row):
-    # Map and rename columns, and convert to expected types if needed
     mapped = {}
     for key, src in FEATURE_VECTOR_MAP.items():
         mapped[key] = row[src]
     return mapped
 
 # === Thresholds for classification ===
-## Threshold suggestions using 25%/75% percentiles:
-# FEATURE_THRESHOLDS = {
-#     "PERCLOS": {'Low': (0.005, 0.0508), 'Moderate': (0.0508, 0.1525), 'High': (0.1525, 0.2283)},
-#     "BlinkRate": {'Low': (0.0833, 0.4667), 'Moderate': (0.4667, 0.8667), 'High': (0.8667, 1.2667)},
-#     "YawningRate": {'Low': (0.0, 0.0), 'Moderate': (0.0, 0.0167), 'High': (0.0167, 0.0667)},
-#     "SteeringEntropy": {'Low': (2.0036, 2.5481), 'Moderate': (2.5481, 2.8723), 'High': (2.8723, 2.9994)},
-#     "SteeringReversalRate": {'Low': (0.1833, 0.4333), 'Moderate': (0.4333, 0.75), 'High': (0.75, 1.15)},
-#     "SteeringStd": {'Low': (0.021, 0.0335), 'Moderate': (0.0335, 0.0396), 'High': (0.0396, 0.1198)},
-#     "OffsetStd": {'Low': (0.2488, 0.3568), 'Moderate': (0.3568, 0.6038), 'High': (0.6038, 0.9563)},
-#     "LaneDepartureFrequency": {'Low': (0.0, 0.0), 'Moderate': (0.0, 0.25), 'High': (0.25, 1.0167)},
-#     "LaneKeepingRatio": {'Low': (0.898, 0.975), 'Moderate': (0.975, 1.0), 'High': (1.0, 1.0)},
-# }
-## Threshold suggestions using 30%/70% percentiles: 
 FEATURE_THRESHOLDS = {
     "PERCLOS": {'Low': (0.005, 0.055), 'Moderate': (0.055, 0.1092), 'High': (0.1092, 0.2283)},
     "BlinkRate": {'Low': (0.0833, 0.4833), 'Moderate': (0.4833, 0.8), 'High': (0.8, 1.2667)},
@@ -85,50 +71,29 @@ def classify_row(row):
 # === Real-time processing loop ===
 PROCESSED_LOG = set()
 CLASSIFIED_FILE = "real_captured_fatigue_classified_30_70.csv"
-SOURCE_FILE = "Feature_vector.csv"  # Change to "real_captured_features.csv" if needed
+SOURCE_FILE = "Feature_vector.csv"  # Or your real-time source
 
-# Create output file with header if not exists
-try:
-    pd.read_csv(CLASSIFIED_FILE)
-except FileNotFoundError:
-    pd.DataFrame(columns=[
-                "ID", "timestamp", "Blink Rate", "Yawning Rate", "PERCLOS", "SDLP",
-                "Steering Entropy", "Lane Keeping Ratio", "Lane Departure Frequency",
-                "SRR", "SAV", "CF", "SF", "LF", "fan", "music", "vibration", "reason"
-    ]).to_csv(CLASSIFIED_FILE, index=False)
+# Output columns as per dummy_data.csv
+output_columns = [
+    "ID", "timestamp", "Blink Rate", "Yawning Rate", "PERCLOS", "SDLP",
+    "Lane Keeping Ratio", "Lane Departure Frequency", "Steering Entropy",
+    "SRR", "SAV", "fatigue_camera_level", "fatigue_steering_level", "fatigue_lane_level",
+    "fan", "music", "vibration", "reason"
+]
 
-# --- Load already processed timestamps to avoid duplicates ---
+# Create output file with header if not exists or is empty
+if not os.path.exists(CLASSIFIED_FILE) or os.stat(CLASSIFIED_FILE).st_size == 0:
+    pd.DataFrame(columns=output_columns).to_csv(CLASSIFIED_FILE, index=False)
+
+# Load already processed timestamps to avoid duplicates
 try:
     df_classified = pd.read_csv(CLASSIFIED_FILE)
-    if "Timestamp" in df_classified.columns:
-        PROCESSED_LOG = set(df_classified["Timestamp"].astype(str))
+    if "timestamp" in df_classified.columns:
+        PROCESSED_LOG = set(df_classified["timestamp"].astype(str))
 except Exception as e:
     print(f"Warning: Could not load processed log: {e}")
 
-
 print("🚀 Monitoring started. Watching for new data...")
-
-output_columns = [
-                "ID", "timestamp", "Blink Rate", "Yawning Rate", "PERCLOS", "SDLP",
-                "Steering Entropy", "Lane Keeping Ratio", "Lane Departure Frequency",
-                "SRR", "SAV", "CF", "SF", "LF", "fan", "music", "vibration", "reason"
-            ]
-
-COLUMN_MAP = {
-                "Timestamp": "timestamp",
-                "BlinkRate": "Blink Rate",
-                "YawningRate": "Yawning Rate",
-                "PERCLOS": "PERCLOS",
-                "OffsetStd": "SDLP",
-                "SteeringEntropy": "Steering Entropy",
-                "LaneKeepingRatio": "Lane Keeping Ratio",
-                "LaneDepartureFrequency": "Lane Departure Frequency",
-                "SteeringReversalRate": "SRR",
-                "SteeringStd": "SAV",
-                "CF": "CF",
-                "SF": "SF",
-                "LF": "LF"
-            }
 
 try:
     while True:
@@ -145,40 +110,45 @@ try:
             results = []
             for _, row in new_rows.iterrows():
                 cf, sf, lf = classify_row(row)
-                mapped_row = {COLUMN_MAP.get(k, k): v for k, v in row.to_dict().items() if k in COLUMN_MAP}
-                mapped_row["CF"] = cf
-                mapped_row["SF"] = sf
-                mapped_row["LF"] = lf
-                # Fill extra columns with default values
-                mapped_row["fan"] = ""
-                mapped_row["music"] = ""
-                mapped_row["vibration"] = ""
-                mapped_row["reason"] = ""
-                results.append(mapped_row)
-            # results = []
-            # for _, row in new_rows.iterrows():
-            #     cf, sf, lf = classify_row(row)
-            #     results.append({
-            #         **row.to_dict(),
-            #         "CF": cf,
-            #         "SF": sf,
-            #         "LF": lf
-            #     })
-                PROCESSED_LOG.add(row["Timestamp"])  # Avoid reprocessing
+                # Build output row explicitly
+                out_row = {
+                    "timestamp": row.get("Timestamp", ""),
+                    "Blink Rate": row.get("BlinkRate", ""),
+                    "Yawning Rate": row.get("YawningRate", row.get("YawnRate", "")),
+                    "PERCLOS": row.get("PERCLOS", ""),
+                    "SDLP": row.get("OffsetStd", row.get("SDLP", "")),
+                    "Lane Keeping Ratio": row.get("LaneKeepingRatio", ""),
+                    "Lane Departure Frequency": row.get("LaneDepartureFrequency", ""),
+                    "Steering Entropy": row.get("SteeringEntropy", ""),
+                    "SRR": row.get("SteeringReversalRate", row.get("SRR", "")),
+                    "SAV": row.get("SteeringStd", row.get("SAV", "")),
+                    "fatigue_camera_level": cf,
+                    "fatigue_steering_level": sf,
+                    "fatigue_lane_level": lf,
+                    "fan": "",
+                    "music": "",
+                    "vibration": "",
+                    "reason": ""
+                }
+                results.append(out_row)
+                PROCESSED_LOG.add(row["Timestamp"])
 
+            # Assign ID and reorder columns
             try:
                 df_existing = pd.read_csv(CLASSIFIED_FILE)
                 max_id = df_existing["ID"].max() if not df_existing.empty else 0
             except Exception:
                 max_id = 0
-            # Specify the correct column order here:
-            
-            df_out = pd.DataFrame(results, columns=output_columns)
-            df_out["ID"] = range(1, len(df_out) + 1)
+
+            df_out = pd.DataFrame(results)
+            df_out["ID"] = range(max_id + 1, max_id + 1 + len(df_out))
+            df_out = df_out[output_columns]
+            # Write header only if file is empty
+            write_header = not os.path.exists(CLASSIFIED_FILE) or os.stat(CLASSIFIED_FILE).st_size == 0
             df_out.to_csv(CLASSIFIED_FILE, mode="a", index=False, header=False)
             print(f"✅ Processed {len(df_out)} new rows at {datetime.now().strftime('%H:%M:%S')}")
 
-        time.sleep(5)  # Check every 5 seconds
+        time.sleep(2)  # Check every 5 seconds
 
 except KeyboardInterrupt:
     print("🛑 Real-time monitor stopped.")
