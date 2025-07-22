@@ -2,17 +2,51 @@ import pandas as pd
 import time
 from datetime import datetime
 
+
+FEATURE_VECTOR_MAP = {
+    "PERCLOS": "PERCLOS",
+    "BlinkRate": "BlinkRate",  # You may need to scale or convert
+    "YawningRate": "YawnRate", # Rename YawnRate to YawningRate
+    "SteeringEntropy": "Steering Entropy",
+    "SteeringReversalRate": "SRR",
+    "SteeringStd": "SAV",
+    "OffsetStd": "SDLP",
+    "LaneDepartureFrequency": "Lane Departure Frequency",
+    "LaneKeepingRatio": "Lane Keeping Ratio",
+    "Timestamp": "Timestamp"
+}
+
+def remap_feature_vector_row(row):
+    # Map and rename columns, and convert to expected types if needed
+    mapped = {}
+    for key, src in FEATURE_VECTOR_MAP.items():
+        mapped[key] = row[src]
+    return mapped
+
 # === Thresholds for classification ===
+## Threshold suggestions using 25%/75% percentiles:
+# FEATURE_THRESHOLDS = {
+#     "PERCLOS": {'Low': (0.005, 0.0508), 'Moderate': (0.0508, 0.1525), 'High': (0.1525, 0.2283)},
+#     "BlinkRate": {'Low': (0.0833, 0.4667), 'Moderate': (0.4667, 0.8667), 'High': (0.8667, 1.2667)},
+#     "YawningRate": {'Low': (0.0, 0.0), 'Moderate': (0.0, 0.0167), 'High': (0.0167, 0.0667)},
+#     "SteeringEntropy": {'Low': (2.0036, 2.5481), 'Moderate': (2.5481, 2.8723), 'High': (2.8723, 2.9994)},
+#     "SteeringReversalRate": {'Low': (0.1833, 0.4333), 'Moderate': (0.4333, 0.75), 'High': (0.75, 1.15)},
+#     "SteeringStd": {'Low': (0.021, 0.0335), 'Moderate': (0.0335, 0.0396), 'High': (0.0396, 0.1198)},
+#     "OffsetStd": {'Low': (0.2488, 0.3568), 'Moderate': (0.3568, 0.6038), 'High': (0.6038, 0.9563)},
+#     "LaneDepartureFrequency": {'Low': (0.0, 0.0), 'Moderate': (0.0, 0.25), 'High': (0.25, 1.0167)},
+#     "LaneKeepingRatio": {'Low': (0.898, 0.975), 'Moderate': (0.975, 1.0), 'High': (1.0, 1.0)},
+# }
+## Threshold suggestions using 30%/70% percentiles: 
 FEATURE_THRESHOLDS = {
-    "PERCLOS": {"Low": (0, 15), "Moderate": (15, 30), "High": (30, 100)},
-    "BlinkRate": {"Low": (10, 15), "Moderate": (15, 18), "High": (18, 50)},
-    "YawningRate": {"Low": (0, 0), "Moderate": (1, 1), "High": (2, 5)},
-    "SteeringEntropy": {"Low": (0, 1), "Moderate": (1, 3), "High": (3, 10)},
-    "SteeringReversalRate": {"Low": (25, 35), "Moderate": (15, 25), "High": (0, 15)},
-    "SteeringStd": {"Low": (0, 0.025), "Moderate": (0.025, 0.035), "High": (0.035, 0.1)},
-    "OffsetStd": {"Low": (0, 20), "Moderate": (20, 35), "High": (35, 100)},
-    "LaneDepartureFrequency": {"Low": (0, 2.5), "Moderate": (2.5, 3.5), "High": (3.5, 10)},
-    "LaneKeepingRatio": {"Low": (0.85, 1), "Moderate": (0.7, 0.85), "High": (0, 0.7)}
+    "PERCLOS": {'Low': (0.005, 0.055), 'Moderate': (0.055, 0.1092), 'High': (0.1092, 0.2283)},
+    "BlinkRate": {'Low': (0.0833, 0.4833), 'Moderate': (0.4833, 0.8), 'High': (0.8, 1.2667)},
+    "YawningRate": {'Low': (0.0, 0.0), 'Moderate': (0.0, 0.0167), 'High': (0.0167, 0.0667)},
+    "SteeringEntropy": {'Low': (2.0036, 2.5794), 'Moderate': (2.5794, 2.8498), 'High': (2.8498, 2.9994)},
+    "SteeringReversalRate": {'Low': (0.1833, 0.45), 'Moderate': (0.45, 0.75), 'High': (0.75, 1.15)},
+    "SteeringStd": {'Low': (0.021, 0.0347), 'Moderate': (0.0347, 0.0391), 'High': (0.0391, 0.1198)},
+    "OffsetStd": {'Low': (0.2488, 0.373), 'Moderate': (0.373, 0.5668), 'High': (0.5668, 0.9563)},
+    "LaneDepartureFrequency": {'Low': (0.0, 0.0), 'Moderate': (0.0, 0.2333), 'High': (0.2333, 1.0167)},
+    "LaneKeepingRatio": {'Low': (0.898, 0.9767), 'Moderate': (0.9767, 1.0), 'High': (1.0, 1.0)},
 }
 
 def classify_feature(value, feature_name):
@@ -50,8 +84,8 @@ def classify_row(row):
 
 # === Real-time processing loop ===
 PROCESSED_LOG = set()
-CLASSIFIED_FILE = "real_captured_fatigue_classified.csv"
-SOURCE_FILE = "real_captured_features.csv"
+CLASSIFIED_FILE = "real_captured_fatigue_classified_30_70.csv"
+SOURCE_FILE = "Feature_vector.csv"  # Change to "real_captured_features.csv" if needed
 
 # Create output file with header if not exists
 try:
@@ -77,7 +111,12 @@ print("🚀 Monitoring started. Watching for new data...")
 
 try:
     while True:
-        df = pd.read_csv(SOURCE_FILE)
+        df_raw = pd.read_csv(SOURCE_FILE)
+        # Remap columns if using Feature_vector.csv
+        if "Feature_vector.csv" in SOURCE_FILE:
+            df = pd.DataFrame([remap_feature_vector_row(row) for _, row in df_raw.iterrows()])
+        else:
+            df = df_raw
 
         new_rows = df[~df["Timestamp"].isin(PROCESSED_LOG)]
 
@@ -93,7 +132,14 @@ try:
                 })
                 PROCESSED_LOG.add(row["Timestamp"])  # Avoid reprocessing
 
-            df_out = pd.DataFrame(results)
+            # Specify the correct column order here:
+            output_columns = [
+                "Timestamp", "PERCLOS", "BlinkRate", "YawningRate",
+                "SteeringEntropy", "SteeringReversalRate", "SteeringStd",
+                "OffsetStd", "LaneDepartureFrequency", "LaneKeepingRatio",
+                "CF", "SF", "LF"
+            ]
+            df_out = pd.DataFrame(results, columns=output_columns)
             df_out.to_csv(CLASSIFIED_FILE, mode="a", index=False, header=False)
             print(f"✅ Processed {len(df_out)} new rows at {datetime.now().strftime('%H:%M:%S')}")
 
@@ -101,3 +147,5 @@ try:
 
 except KeyboardInterrupt:
     print("🛑 Real-time monitor stopped.")
+
+
