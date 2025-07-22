@@ -92,10 +92,9 @@ try:
     pd.read_csv(CLASSIFIED_FILE)
 except FileNotFoundError:
     pd.DataFrame(columns=[
-        "Timestamp", "PERCLOS", "BlinkRate", "YawningRate",
-        "SteeringEntropy", "SteeringReversalRate", "SteeringStd",
-        "OffsetStd", "LaneDepartureFrequency", "LaneKeepingRatio",
-        "CF", "SF", "LF"
+                "ID", "timestamp", "Blink Rate", "Yawning Rate", "PERCLOS", "SDLP",
+                "Steering Entropy", "Lane Keeping Ratio", "Lane Departure Frequency",
+                "SRR", "SAV", "CF", "SF", "LF", "fan", "music", "vibration", "reason"
     ]).to_csv(CLASSIFIED_FILE, index=False)
 
 # --- Load already processed timestamps to avoid duplicates ---
@@ -108,6 +107,28 @@ except Exception as e:
 
 
 print("🚀 Monitoring started. Watching for new data...")
+
+output_columns = [
+                "ID", "timestamp", "Blink Rate", "Yawning Rate", "PERCLOS", "SDLP",
+                "Steering Entropy", "Lane Keeping Ratio", "Lane Departure Frequency",
+                "SRR", "SAV", "CF", "SF", "LF", "fan", "music", "vibration", "reason"
+            ]
+
+COLUMN_MAP = {
+                "Timestamp": "timestamp",
+                "BlinkRate": "Blink Rate",
+                "YawningRate": "Yawning Rate",
+                "PERCLOS": "PERCLOS",
+                "OffsetStd": "SDLP",
+                "SteeringEntropy": "Steering Entropy",
+                "LaneKeepingRatio": "Lane Keeping Ratio",
+                "LaneDepartureFrequency": "Lane Departure Frequency",
+                "SteeringReversalRate": "SRR",
+                "SteeringStd": "SAV",
+                "CF": "CF",
+                "SF": "SF",
+                "LF": "LF"
+            }
 
 try:
     while True:
@@ -124,22 +145,36 @@ try:
             results = []
             for _, row in new_rows.iterrows():
                 cf, sf, lf = classify_row(row)
-                results.append({
-                    **row.to_dict(),
-                    "CF": cf,
-                    "SF": sf,
-                    "LF": lf
-                })
+                mapped_row = {COLUMN_MAP.get(k, k): v for k, v in row.to_dict().items() if k in COLUMN_MAP}
+                mapped_row["CF"] = cf
+                mapped_row["SF"] = sf
+                mapped_row["LF"] = lf
+                # Fill extra columns with default values
+                mapped_row["fan"] = ""
+                mapped_row["music"] = ""
+                mapped_row["vibration"] = ""
+                mapped_row["reason"] = ""
+                results.append(mapped_row)
+            # results = []
+            # for _, row in new_rows.iterrows():
+            #     cf, sf, lf = classify_row(row)
+            #     results.append({
+            #         **row.to_dict(),
+            #         "CF": cf,
+            #         "SF": sf,
+            #         "LF": lf
+            #     })
                 PROCESSED_LOG.add(row["Timestamp"])  # Avoid reprocessing
 
+            try:
+                df_existing = pd.read_csv(CLASSIFIED_FILE)
+                max_id = df_existing["ID"].max() if not df_existing.empty else 0
+            except Exception:
+                max_id = 0
             # Specify the correct column order here:
-            output_columns = [
-                "Timestamp", "PERCLOS", "BlinkRate", "YawningRate",
-                "SteeringEntropy", "SteeringReversalRate", "SteeringStd",
-                "OffsetStd", "LaneDepartureFrequency", "LaneKeepingRatio",
-                "CF", "SF", "LF"
-            ]
+            
             df_out = pd.DataFrame(results, columns=output_columns)
+            df_out["ID"] = range(1, len(df_out) + 1)
             df_out.to_csv(CLASSIFIED_FILE, mode="a", index=False, header=False)
             print(f"✅ Processed {len(df_out)} new rows at {datetime.now().strftime('%H:%M:%S')}")
 
