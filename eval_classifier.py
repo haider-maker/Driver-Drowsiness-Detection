@@ -1,9 +1,30 @@
+"""
+Classifier Evaluation and Visualization Script
+----------------------------------------------
+This script merges feature and classified fatigue data, analyzes the relationship between
+fatigue predictions and KSS scores, and visualizes results using various plots.
+
+Steps performed:
+    1. Merge feature and classified data on timestamp.
+    2. Crosstab and visualize fatigue class vs KSS (count, box, violin plots).
+    3. Compute and plot correlation heatmap between KSS and fatigue scores.
+    4. Grouped bar charts for all three classifiers (CF, SF, LF) vs KSS.
+    5. Violin plots for KSS distribution per fatigue class.
+    6. Crosstab bar/histogram plots for each classifier output.
+
+Dependencies:
+    pandas, matplotlib, seaborn, numpy
+
+Usage:
+    python eval_classifier.py
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-# Load files
+# Load feature and classified fatigue data
 df_feat = pd.read_csv("Feature_vector.csv")
 df_pred = pd.read_csv("real_captured_fatigue_classified_30_70.csv")
 
@@ -14,21 +35,50 @@ df = pd.merge(df_feat, df_pred, left_on="Timestamp", right_on="timestamp", suffi
 
 print(f"Merged rows: {len(df)} (out of {len(df_feat)} features, {len(df_pred)} classified)")
 
-# --- Handle column names for fatigue classes ---
+# Map fatigue class columns for flexibility
 fatigue_col_map = {
     "CF": "fatigue_camera_level" if "fatigue_camera_level" in df.columns else "CF",
     "SF": "fatigue_steering_level" if "fatigue_steering_level" in df.columns else "SF",
     "LF": "fatigue_lane_level" if "fatigue_lane_level" in df.columns else "LF"
 }
 
+def plot_grouped(ax, ct, title):
+    """
+    Plot grouped bar chart for fatigue class distribution across KSS scores.
+
+    Args:
+        ax (matplotlib.axes.Axes): Axis to plot on.
+        ct (pd.DataFrame): Crosstab of fatigue class vs KSS.
+        title (str): Title for the plot.
+
+    Returns:
+        None
+    """
+    fatigue_levels = ["Low", "Moderate", "High"]
+    colors = ['green', 'orange', 'red']
+    bar_width = 0.25
+    kss_labels = sorted(ct.columns)
+    x = np.arange(len(kss_labels))
+    for i, level in enumerate(fatigue_levels):
+        ax.bar(x + (i - 1)*bar_width, ct.loc[level, kss_labels], 
+               width=bar_width, label=level, color=colors[i])
+    ax.set_title(title)
+    ax.set_xticks(x)
+    ax.set_xticklabels(kss_labels)
+    ax.set_xlabel("KSS Score")
+    ax.set_ylabel("Count")
+    ax.legend(title="Fatigue Class")
+
 # --- Crosstab and count/box/violin plots ---
 for col, colname in fatigue_col_map.items():
     print(f"\n=== {col} vs KSS ===")
     print(pd.crosstab(df[colname], df["KSS"], margins=True))
+    # Count plot
     plt.figure(figsize=(8,4))
     sns.countplot(x="KSS", hue=colname, data=df, palette="Set2")
     plt.title(f"{col} class vs KSS (count)")
     plt.show()
+    # Box plot
     plt.figure(figsize=(8,4))
     sns.boxplot(x=colname, y="KSS", data=df, palette="Set2")
     plt.title(f"KSS distribution for each {col} class")
@@ -53,26 +103,9 @@ sf_ct = pd.crosstab(df[fatigue_col_map["SF"]], df["KSS"]).reindex(["Low", "Moder
 lf_ct = pd.crosstab(df[fatigue_col_map["LF"]], df["KSS"]).reindex(["Low", "Moderate", "High"])
 
 fig, axes = plt.subplots(1, 3, figsize=(18, 5), sharey=True)
-fatigue_levels = ["Low", "Moderate", "High"]
-colors = ['green', 'orange', 'red']
-bar_width = 0.25
-x = np.arange(len(kss_labels))
-
-def plot_grouped(ax, ct, title):
-    for i, level in enumerate(fatigue_levels):
-        ax.bar(x + (i - 1)*bar_width, ct.loc[level, kss_labels], 
-               width=bar_width, label=level, color=colors[i])
-    ax.set_title(title)
-    ax.set_xticks(x)
-    ax.set_xticklabels(kss_labels)
-    ax.set_xlabel("KSS Score")
-    ax.set_ylabel("Count")
-    ax.legend(title="Fatigue Class")
-
 plot_grouped(axes[0], cf_ct, "CF vs KSS")
 plot_grouped(axes[1], sf_ct, "SF vs KSS")
 plot_grouped(axes[2], lf_ct, "LF vs KSS")
-
 plt.suptitle("Grouped Bar Chart: CF / SF / LF Class Distribution Across KSS", fontsize=16)
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.show()

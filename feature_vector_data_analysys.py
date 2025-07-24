@@ -1,3 +1,29 @@
+"""
+Feature Vector Data Analysis (Percentile Thresholds)
+---------------------------------------------------
+This script loads driver feature data, calculates threshold suggestions for each feature
+using user-defined percentiles, and visualizes distributions with threshold lines.
+It prints a ready-to-use Python dictionary for thresholds.
+
+Steps performed:
+    1. Load feature data from CSV.
+    2. For each feature:
+        - Calculate min, low, high, max values based on percentiles.
+        - Print threshold ranges for Low, Moderate, High.
+        - Plot histogram and boxplot with threshold lines.
+    3. Print a Python dictionary for all thresholds.
+
+User adjustable parameters:
+    LOW_PERCENTILE: Lower percentile for threshold (e.g., 0.30 for 30th percentile).
+    HIGH_PERCENTILE: Higher percentile for threshold (e.g., 0.70 for 70th percentile).
+
+Dependencies:
+    pandas, matplotlib, seaborn
+
+Usage:
+    python feature_vector_data_analysys.py
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -40,7 +66,7 @@ for key, col in FEATURE_VECTOR_MAP.items():
         "Moderate": (float(f"{low_v:.4f}"), float(f"{high_v:.4f}")),
         "High": (float(f"{high_v:.4f}"), float(f"{max_v:.4f}"))
     }
-    # Visualization
+    # Visualization: histogram and boxplot with threshold lines
     plt.figure(figsize=(10,4))
     plt.subplot(1,2,1)
     plt.hist(vals, bins=30, color='skyblue', edgecolor='black')

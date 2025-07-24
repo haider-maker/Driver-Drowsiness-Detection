@@ -5,21 +5,27 @@ from datetime import datetime
 
 # === Realistic feature value ranges ===
 RANGES = {
-    "PERCLOS": (5, 50),
-    "BlinkRate": (10, 30),
-    "YawningRate": (0, 3),
-    "SteeringEntropy": (0.5, 5),
-    "SteeringReversalRate": (5, 35),
-    "SteeringStd": (0.015, 0.05),
-    "OffsetStd": (10, 60),
-    "LaneDepartureFrequency": (1, 5),
-    "LaneKeepingRatio": (0.6, 1)
+    "PERCLOS": (5, 50),  # Percentage of eye closure
+    "BlinkRate": (10, 30),  # Blinks per minute
+    "YawningRate": (0, 3),  # Yawns per minute
+    "SteeringEntropy": (0.5, 5),  # Steering entropy value
+    "SteeringReversalRate": (5, 35),  # Steering reversal rate
+    "SteeringStd": (0.015, 0.05),  # Standard deviation of steering
+    "OffsetStd": (10, 60),  # Standard deviation of lane offset
+    "LaneDepartureFrequency": (1, 5),  # Lane departures per minute
+    "LaneKeepingRatio": (0.6, 1)  # Ratio of time spent keeping lane
 }
 
 # Desired column order: Timestamp first
 FEATURE_COLUMNS = ["Timestamp"] + list(RANGES.keys())
 
 def generate_sample():
+    """
+    Generate a single row of simulated driver feature data.
+
+    Returns:
+        dict: Dictionary containing timestamp and random feature values.
+    """
     row = {}
     row["Timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     for feature, (low, high) in RANGES.items():
