@@ -1,13 +1,17 @@
 import os
 import matplotlib.pyplot as plt
 import numpy as np
+from pathlib import Path
 
 # === CONFIG ===
-base_dir = "data/Fabian_trail_EAR_MAR_output"
+subject = "Ghulam"
+video_id = "KSS_4_Vid_1"
+
+base_dir = f"data/Subjects_EAR_MAR_output/{subject}/{video_id}"
 
 ear_vals = []
 mar_vals = []
-frame_numbers = []
+timestamps_float = []
 
 # === Sanity check ===
 if not os.path.isdir(base_dir):
@@ -20,12 +24,13 @@ print(f"📂 Found {len(files)} feature files in folder: {base_dir}")
 
 for file in files:
     file_path = os.path.join(base_dir, file)
-    
-    # Extract frame number for plotting
+
+    # Extract timestamp float from filename
     try:
-        frame_num = int(file.split("_")[1].split(".")[0])
-    except:
-        print(f"⚠️ Skipping file with unexpected name format: {file}")
+        stem_str = Path(file).stem.strip()
+        timestamp_float = float(stem_str)
+    except Exception as e:
+        print(f"⚠️ Skipping file with unexpected name format: {file} ({e})")
         continue
 
     with open(file_path, 'r') as f:
@@ -37,7 +42,7 @@ for file in files:
             ear, mar = map(float, line.split())
             ear_vals.append(ear)
             mar_vals.append(mar)
-            frame_numbers.append(frame_num)
+            timestamps_float.append(timestamp_float)
         except:
             print(f"⚠️ Skipping invalid data in file: {file}")
 
@@ -46,18 +51,18 @@ if not ear_vals or not mar_vals:
     print("❌ No valid EAR or MAR values found.")
     exit()
 
-# === Sort all lists by frame number ===
-sorted_indices = np.argsort(frame_numbers)
-frame_numbers_sorted = np.array(frame_numbers)[sorted_indices]
+# === Sort all lists by timestamp ===
+sorted_indices = np.argsort(timestamps_float)
+timestamps_sorted = np.array(timestamps_float)[sorted_indices]
 ear_vals_sorted = np.array(ear_vals)[sorted_indices]
 mar_vals_sorted = np.array(mar_vals)[sorted_indices]
 
 # === Plot EAR and MAR ===
 plt.figure(figsize=(12, 5))
-plt.plot(frame_numbers_sorted, ear_vals_sorted, label='EAR (Eye Aspect Ratio)', color='blue')
-plt.plot(frame_numbers_sorted, mar_vals_sorted, label='MAR (Mouth Aspect Ratio)', color='orange')
-plt.title("EAR and MAR over frames for Fabian Trial Data")
-plt.xlabel("Frame Number")
+plt.plot(timestamps_sorted, ear_vals_sorted, label='EAR (Eye Aspect Ratio)', color='blue')
+plt.plot(timestamps_sorted, mar_vals_sorted, label='MAR (Mouth Aspect Ratio)', color='orange')
+plt.title(f"EAR and MAR over time for {subject} - {video_id}")
+plt.xlabel("Timestamp (float seconds since epoch)")
 plt.ylabel("Ratio")
 plt.grid(True)
 plt.legend()

@@ -1,16 +1,15 @@
-import os
 import math
 from pathlib import Path
 
 # === CONFIGURATION ===
-landmark_dir = Path("data/Fabian_trail_landmarks_dlib_pretrained")         # Input landmark folders
-output_dir = Path("data/Fabian_trail_EAR_MAR_output")                 # Output folder (root)
+landmark_dir = Path("data/Subjects_landmarks_dlib_pretrained")          # Input landmark folders
+output_dir = Path("data/Subjects_EAR_MAR_output")                        # Output folder (root)
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # === Facial Landmark Indices (68-point format) ===
 LEFT_EYE = [36, 37, 38, 39, 40, 41]
 RIGHT_EYE = [42, 43, 44, 45, 46, 47]
-MOUTH = [48, 54, 51, 62, 66, 57]  # [left, right, top_outer, top_inner, bottom_inner, bottom_outer]
+MOUTH = [48, 54, 51, 62, 66, 57]
 
 def euclidean(p1, p2):
     return math.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
@@ -36,13 +35,14 @@ def compute_mar(mouth):
 
 # === Process All Landmark Files Recursively ===
 processed = 0
+
 for txt_file in sorted(landmark_dir.rglob("*.txt")):
     landmarks = load_landmarks(txt_file)
     if landmarks is None:
         print(f"⚠️ Skipping {txt_file}: invalid number of landmarks.")
         continue
 
-    # EAR and MAR calculation
+    # Compute EAR and MAR
     left_eye = [landmarks[i] for i in LEFT_EYE]
     right_eye = [landmarks[i] for i in RIGHT_EYE]
     mouth = [landmarks[i] for i in MOUTH]
@@ -52,8 +52,10 @@ for txt_file in sorted(landmark_dir.rglob("*.txt")):
     ear = (left_ear + right_ear) / 2.0
     mar = compute_mar(mouth)
 
-    # Preserve subfolder structure
+    # Determine relative path
     relative_path = txt_file.relative_to(landmark_dir)
+
+    # Save under same relative path
     out_path = output_dir / relative_path
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
