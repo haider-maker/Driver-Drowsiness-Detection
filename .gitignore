@@ -20,3 +20,11 @@ shape_predictor_68_face_landmarks.dat
 train.xml
 training_with_face_landmarks.xml
 data/*
+yolo/*
+.csv
+# Ignore everything
+*
+
+# Except these two files (adjust paths if needed)
+!README.md
+!Final_Presentation.pptx
